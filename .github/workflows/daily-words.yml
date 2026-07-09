@@ -1,0 +1,44 @@
+name: Daily Words
+
+# Runs autonomously every day and publishes the word of the day.
+# - Scheduled at 00:05 UTC (a few minutes past midnight so the date has rolled over)
+# - Can also be triggered manually from the Actions tab
+on:
+  schedule:
+    - cron: "5 0 * * *"
+  workflow_dispatch:
+
+# Allow the job to push the regenerated snapshot back to the branch.
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-words
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Generate today's word
+        run: node scripts/update-daily-word.mjs
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [[ -n "$(git status --porcelain dailywords/today.json dailywords/history.json)" ]]; then
+            git add dailywords/today.json dailywords/history.json
+            git commit -m "chore: publish word of the day for $(date -u +%Y-%m-%d)"
+            git push
+          else
+            echo "No change in today's word — nothing to publish."
+          fi

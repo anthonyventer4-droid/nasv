@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nkwane ASV – Security · Cleaning · Events</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:ital,wght@0,300;0,400;0,600;0,700;1,300&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --black: #0a0a0a;
+    --charcoal: #1a1a1a;
+    --steel: #2c2c2c;
+    --gold: #c9a84c;
+    --gold-light: #e6c76b;
+    --white: #f5f2ed;
+    --muted: #a09080;
+    --up-blue: #003b8e;
+  }
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { background: var(--black); color: var(--white); font-family: 'Barlow', sans-serif; font-weight: 300; overflow-x: hidden; }
+  body::before { content: ''; position: fixed; inset: 0; background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E"); pointer-events: none; z-index: 9999; opacity: 0.35; }
+
+  nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; display: flex; align-items: center; justify-content: space-between; padding: 1.2rem 4rem; background: linear-gradient(to bottom, rgba(10,10,10,0.97), transparent); backdrop-filter: blur(4px); }
+  .nav-logo { font-family: 'Bebas Neue', sans-serif; font-size: 1.6rem; letter-spacing: 0.12em; color: var(--gold); text-decoration: none; }
+  .nav-logo span { color: var(--white); }
+  nav ul { display: flex; gap: 2.2rem; list-style: none; }
+  nav ul a { color: var(--muted); text-decoration: none; font-size: 0.76rem; letter-spacing: 0.18em; text-transform: uppercase; font-weight: 600; transition: color 0.2s; }
+  nav ul a:hover { color: var(--gold); }
+  .nav-cta { background: var(--gold); color: var(--black) !important; padding: 0.5rem 1.4rem; font-weight: 700 !important; }
+  .nav-cta:hover { background: var(--gold-light) !important; }
+
+  .hero { min-height: 100vh; display: flex; align-items: flex-end; padding: 0 4rem 6rem; position: relative; overflow: hidden; }
+  .hero-bg { position: absolute; inset: 0; background: radial-gradient(ellipse 80% 60% at 70% 40%, rgba(201,168,76,0.07) 0%, transparent 60%), radial-gradient(ellipse 50% 80% at 10% 80%, rgba(0,59,142,0.06) 0%, transparent 50%), linear-gradient(160deg, #0f0f0f 0%, #0a0a0a 100%); }
+  .hero-grid { position: absolute; inset: 0; background-image: linear-gradient(rgba(201,168,76,0.04) 1px, transparent 1px), linear-gradient(90deg, rgba(201,168,76,0.04) 1px, transparent 1px); background-size: 80px 80px; }
+  .hero-badge { position: absolute; top: 7rem; right: 4rem; display: flex; flex-direction: column; align-items: center; gap: 0.4rem; opacity: 0; animation: fadeSlideLeft 0.8s 0.6s forwards; }
+  .hero-badge-ring { width: 110px; height: 110px; border: 1.5px solid rgba(201,168,76,0.4); border-radius: 50%; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 1rem; }
+  .hero-badge-ring .est { font-size: 0.55rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold); }
+  .hero-badge-ring .year { font-family: 'Bebas Neue', sans-serif; font-size: 2rem; color: var(--white); line-height: 1; }
+  .hero-badge-ring .reg { font-size: 0.5rem; letter-spacing: 0.12em; color: var(--muted); text-transform: uppercase; margin-top: 0.2rem; }
+  .hero-psira { font-size: 0.6rem; letter-spacing: 0.15em; color: var(--gold); text-transform: uppercase; }
+  .hero-content { position: relative; max-width: 820px; }
+  .hero-eyebrow { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem; opacity: 0; animation: fadeSlideUp 0.7s 0.2s forwards; }
+  .hero-eyebrow::before { content: ''; display: block; width: 40px; height: 1.5px; background: var(--gold); }
+  .hero-eyebrow span { font-size: 0.72rem; letter-spacing: 0.22em; text-transform: uppercase; color: var(--gold); font-weight: 600; }
+  .hero h1 { font-family: 'Bebas Neue', sans-serif; font-size: clamp(4.5rem, 10vw, 9rem); line-height: 0.9; letter-spacing: 0.04em; opacity: 0; animation: fadeSlideUp 0.8s 0.35s forwards; }
+  .hero h1 em { font-style: normal; color: var(--gold); display: block; }
+  .hero-sub { margin-top: 2rem; font-size: 1.05rem; line-height: 1.75; color: rgba(245,242,237,0.65); max-width: 580px; opacity: 0; animation: fadeSlideUp 0.8s 0.5s forwards; }
+  .hero-actions { display: flex; gap: 1.2rem; margin-top: 2.5rem; flex-wrap: wrap; opacity: 0; animation: fadeSlideUp 0.8s 0.65s forwards; }
+  .btn-primary { background: var(--gold); color: var(--black); padding: 0.85rem 2rem; font-size: 0.8rem; letter-spacing: 0.15em; text-transform: uppercase; font-weight: 700; text-decoration: none; border: none; cursor: pointer; font-family: 'Barlow', sans-serif; transition: background 0.2s, transform 0.15s; display: inline-block; }
+  .btn-primary:hover { background: var(--gold-light); transform: translateY(-2px); }
+  .btn-outline { background: transparent; color: var(--white); padding: 0.85rem 2rem; font-size: 0.8rem; letter-spacing: 0.15em; text-transform: uppercase; font-weight: 600; text-decoration: none; border: 1px solid rgba(245,242,237,0.25); font-family: 'Barlow', sans-serif; transition: border-color 0.2s, color 0.2s; display: inline-block; }
+  .btn-outline:hover { border-color: var(--gold); color: var(--gold); }
+  .hero-scroll { position: absolute; bottom: 2.5rem; right: 4rem; display: flex; flex-direction: column; align-items: center; gap: 0.6rem; opacity: 0; animation: fadeIn 1s 1.2s forwards; }
+  .hero-scroll span { font-size: 0.6rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--muted); writing-mode: vertical-rl; }
+  .scroll-line { width: 1px; height: 50px; background: linear-gradient(to bottom, var(--gold), transparent); animation: scrollPulse 2s ease-in-out infinite; }
+
+  .stats-bar { background: var(--charcoal); border-top: 1px solid rgba(201,168,76,0.2); border-bottom: 1px solid rgba(201,168,76,0.2); display: flex; justify-content: center; flex-wrap: wrap; }
+  .stat-item { flex: 1; min-width: 140px; max-width: 220px; padding: 2rem; text-align: center; border-right: 1px solid rgba(201,168,76,0.1); }
+  .stat-item:last-child { border-right: none; }
+  .stat-number { font-family: 'Bebas Neue', sans-serif; font-size: 2.8rem; color: var(--gold); line-height: 1; }
+  .stat-label { font-size: 0.68rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--muted); margin-top: 0.4rem; font-weight: 600; }
+
+  section { padding: 7rem 4rem; }
+  .section-header { margin-bottom: 4rem; }
+  .section-tag { display: inline-flex; align-items: center; gap: 0.8rem; font-size: 0.7rem; letter-spacing: 0.22em; text-transform: uppercase; color: var(--gold); font-weight: 600; margin-bottom: 1rem; }
+  .section-tag::before { content: ''; display: block; width: 24px; height: 1.5px; background: var(--gold); }
+  .section-title { font-family: 'Bebas Neue', sans-serif; font-size: clamp(2.8rem, 5vw, 4.5rem); letter-spacing: 0.04em; line-height: 0.95; }
+  .section-title em { font-style: normal; color: var(--gold); }
+
+  #about { display: grid; grid-template-columns: 1fr 1fr; gap: 6rem; align-items: center; background: var(--charcoal); }
+  .about-visual { position: relative; height: 520px; }
+  .about-block-main { position: absolute; top: 0; left: 0; width: 75%; height: 75%; background: linear-gradient(135deg, #1e1e1e, #141414); border: 1px solid rgba(201,168,76,0.15); display: flex; align-items: center; justify-content: center; }
+  .shield-svg { width: 160px; opacity: 0.15; }
+  .about-block-accent { position: absolute; bottom: 0; right: 0; width: 55%; height: 45%; background: linear-gradient(135deg, rgba(201,168,76,0.12), rgba(201,168,76,0.04)); border: 1px solid rgba(201,168,76,0.3); display: flex; align-items: center; justify-content: center; padding: 1.5rem; text-align: center; }
+  .about-block-accent p { font-family: 'Bebas Neue', sans-serif; font-size: 1.05rem; letter-spacing: 0.08em; color: var(--gold); line-height: 1.3; }
+  .about-year-tag { position: absolute; bottom: 0; left: 0; background: var(--gold); color: var(--black); padding: 0.6rem 1.2rem; font-family: 'Bebas Neue', sans-serif; font-size: 1rem; letter-spacing: 0.1em; }
+  .about-text p { font-size: 1rem; line-height: 1.8; color: rgba(245,242,237,0.7); margin-bottom: 1.2rem; }
+  .about-pillars { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 2rem; }
+  .pillar { padding: 1.2rem 1.4rem; border: 1px solid rgba(201,168,76,0.15); border-left: 3px solid var(--gold); background: rgba(201,168,76,0.03); }
+  .pillar h4 { font-family: 'Bebas Neue', sans-serif; font-size: 1rem; letter-spacing: 0.08em; color: var(--gold); margin-bottom: 0.3rem; }
+  .pillar p { font-size: 0.8rem; color: var(--muted); line-height: 1.5; margin: 0; }
+
+  #services { background: var(--black); }
+  .services-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5px; background: rgba(201,168,76,0.1); border: 1px solid rgba(201,168,76,0.1); margin-top: 3rem; }
+  .service-card { background: var(--black); padding: 3rem 2.5rem; position: relative; overflow: hidden; transition: background 0.3s; }
+  .service-card::after { content: ''; position: absolute; bottom: 0; left: 0; height: 3px; width: 0; background: var(--gold); transition: width 0.4s; }
+  .service-card:hover { background: #111; }
+  .service-card:hover::after { width: 100%; }
+  .service-icon { width: 52px; height: 52px; margin-bottom: 1.5rem; }
+  .service-card h3 { font-family: 'Bebas Neue', sans-serif; font-size: 1.8rem; letter-spacing: 0.06em; color: var(--white); margin-bottom: 1rem; }
+  .service-card > p { font-size: 0.88rem; line-height: 1.75; color: rgba(245,242,237,0.6); margin-bottom: 1.5rem; }
+  .service-list { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+  .service-list li { font-size: 0.8rem; color: var(--muted); display: flex; align-items: center; gap: 0.7rem; }
+  .service-list li::before { content: ''; display: block; width: 14px; height: 1px; background: var(--gold); flex-shrink: 0; }
+  .card-num { position: absolute; top: 2rem; right: 2rem; font-family: 'Bebas Neue', sans-serif; font-size: 3.5rem; color: rgba(201,168,76,0.06); line-height: 1; pointer-events: none; }
+
+  #events { background: var(--charcoal); position: relative; overflow: hidden; }
+  .events-intro { display: grid; grid-template-columns: 1.1fr 1fr; gap: 5rem; align-items: start; margin-bottom: 4rem; }
+  .events-intro-text p { font-size: 1rem; line-height: 1.8; color: rgba(245,242,237,0.7); margin-bottom: 1.2rem; }
+  .events-venue-card { background: linear-gradient(135deg, rgba(0,59,142,0.15), rgba(0,59,142,0.05)); border: 1px solid rgba(0,59,142,0.35); padding: 2rem; }
+  .venue-label { font-size: 0.65rem; letter-spacing: 0.2em; text-transform: uppercase; color: #6699ff; font-weight: 600; margin-bottom: 0.5rem; }
+  .venue-name { font-family: 'Bebas Neue', sans-serif; font-size: 1.5rem; letter-spacing: 0.06em; color: var(--white); margin-bottom: 0.3rem; }
+  .venue-sub { font-size: 0.8rem; color: var(--muted); margin-bottom: 1.2rem; }
+  .venue-detail { display: flex; align-items: center; gap: 0.8rem; font-size: 0.8rem; color: rgba(245,242,237,0.6); margin-bottom: 0.5rem; }
+  .venue-dot { width: 5px; height: 5px; background: #6699ff; border-radius: 50%; flex-shrink: 0; }
+
+  .sports-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 3rem; }
+  .sport-card { background: var(--black); border: 1px solid rgba(201,168,76,0.12); padding: 1.5rem 1.2rem; text-align: center; transition: border-color 0.3s, transform 0.25s; }
+  .sport-card:hover { border-color: rgba(201,168,76,0.4); transform: translateY(-4px); }
+  .sport-icon { font-size: 2rem; margin-bottom: 0.8rem; display: block; }
+  .sport-name { font-family: 'Bebas Neue', sans-serif; font-size: 1.05rem; letter-spacing: 0.08em; color: var(--white); margin-bottom: 0.4rem; }
+  .sport-detail { font-size: 0.72rem; color: var(--muted); line-height: 1.5; }
+
+  .events-capabilities { background: var(--black); border: 1px solid rgba(201,168,76,0.12); padding: 2.5rem; display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; }
+  .cap-group h4 { font-family: 'Bebas Neue', sans-serif; font-size: 1.1rem; letter-spacing: 0.08em; color: var(--gold); margin-bottom: 1rem; }
+  .cap-list { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+  .cap-list li { font-size: 0.82rem; color: rgba(245,242,237,0.65); display: flex; gap: 0.7rem; align-items: flex-start; line-height: 1.5; }
+  .cap-list li::before { content: ''; display: block; width: 14px; height: 1px; background: var(--gold); flex-shrink: 0; margin-top: 0.6rem; }
+  .events-experience { margin-top: 3rem; padding-top: 3rem; border-top: 1px solid rgba(201,168,76,0.12); display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
+  .exp-stat { text-align: center; padding: 1.5rem; border: 1px solid rgba(201,168,76,0.12); background: rgba(201,168,76,0.03); }
+  .exp-stat .big { font-family: 'Bebas Neue', sans-serif; font-size: 2.5rem; color: var(--gold); }
+  .exp-stat .lbl { font-size: 0.68rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--muted); margin-top: 0.3rem; font-weight: 600; }
+
+  #values { background: var(--black); position: relative; overflow: hidden; }
+  #values::before { content: 'NKWANE'; position: absolute; font-family: 'Bebas Neue', sans-serif; font-size: 22vw; color: rgba(201,168,76,0.025); top: 50%; left: 50%; transform: translate(-50%, -50%); white-space: nowrap; pointer-events: none; letter-spacing: 0.1em; }
+  .values-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; position: relative; }
+  .value-card { padding: 2.5rem; border: 1px solid rgba(201,168,76,0.12); background: rgba(10,10,10,0.5); transition: border-color 0.3s, transform 0.3s; }
+  .value-card:hover { border-color: rgba(201,168,76,0.4); transform: translateY(-4px); }
+  .value-icon { font-size: 1.8rem; margin-bottom: 1rem; }
+  .value-card h4 { font-family: 'Bebas Neue', sans-serif; font-size: 1.3rem; letter-spacing: 0.08em; color: var(--gold); margin-bottom: 0.8rem; }
+  .value-card p { font-size: 0.85rem; line-height: 1.7; color: rgba(245,242,237,0.55); }
+
+  #responsibility { background: var(--charcoal); display: grid; grid-template-columns: 1fr 1.2fr; gap: 6rem; align-items: center; }
+  .responsibility-visual { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+  .resp-stat { padding: 2rem; border: 1px solid rgba(201,168,76,0.15); background: var(--steel); text-align: center; transition: border-color 0.3s; }
+  .resp-stat:first-child { grid-column: span 2; background: linear-gradient(135deg, rgba(201,168,76,0.1), rgba(201,168,76,0.03)); border-color: rgba(201,168,76,0.3); }
+  .resp-stat:hover { border-color: var(--gold); }
+  .resp-stat .big { font-family: 'Bebas Neue', sans-serif; font-size: 2.2rem; color: var(--gold); }
+  .resp-stat .label { font-size: 0.7rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--muted); margin-top: 0.3rem; font-weight: 600; }
+  .responsibility-text p { font-size: 1rem; line-height: 1.8; color: rgba(245,242,237,0.7); margin-bottom: 1.2rem; }
+  .commitment-list { list-style: none; margin-top: 1.5rem; display: flex; flex-direction: column; gap: 0.8rem; }
+  .commitment-list li { display: flex; gap: 1rem; align-items: flex-start; font-size: 0.88rem; color: rgba(245,242,237,0.65); }
+  .commitment-list li .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--gold); flex-shrink: 0; margin-top: 0.45rem; }
+
+  #contact { background: var(--black); display: grid; grid-template-columns: 1fr 1fr; gap: 6rem; align-items: start; }
+  .contact-details { display: flex; flex-direction: column; gap: 2rem; }
+  .contact-item { display: flex; gap: 1.5rem; align-items: flex-start; }
+  .contact-icon { width: 44px; height: 44px; border: 1px solid rgba(201,168,76,0.3); display: flex; align-items: center; justify-content: center; flex-shrink: 0; font-size: 1rem; }
+  .contact-item h4 { font-size: 0.7rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--gold); font-weight: 600; margin-bottom: 0.3rem; }
+  .contact-item p { font-size: 0.9rem; color: rgba(245,242,237,0.65); line-height: 1.6; }
+  .contact-item a { color: var(--gold); text-decoration: none; }
+  .contact-item a:hover { color: var(--gold-light); }
+  .contact-form { display: flex; flex-direction: column; gap: 1rem; }
+  .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+  .form-field { display: flex; flex-direction: column; gap: 0.4rem; }
+  .form-field label { font-size: 0.68rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+  .form-field input, .form-field textarea, .form-field select { background: var(--charcoal); border: 1px solid rgba(201,168,76,0.15); color: var(--white); padding: 0.8rem 1rem; font-family: 'Barlow', sans-serif; font-size: 0.88rem; outline: none; transition: border-color 0.2s; appearance: none; }
+  .form-field input::placeholder, .form-field textarea::placeholder { color: var(--muted); opacity: 0.7; }
+  .form-field select option { background: var(--charcoal); }
+  .form-field input:focus, .form-field textarea:focus, .form-field select:focus { border-color: var(--gold); }
+  .form-field textarea { resize: vertical; min-height: 120px; }
+  .form-note { font-size: 0.75rem; color: var(--muted); line-height: 1.5; }
+
+  footer { background: var(--charcoal); border-top: 1px solid rgba(201,168,76,0.15); padding: 3rem 4rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1.5rem; }
+  .footer-logo { font-family: 'Bebas Neue', sans-serif; font-size: 1.4rem; letter-spacing: 0.1em; color: var(--gold); }
+  .footer-logo span { color: var(--white); }
+  .footer-copy { font-size: 0.75rem; color: var(--muted); letter-spacing: 0.06em; }
+  .footer-psira { display: flex; align-items: center; gap: 0.6rem; font-size: 0.7rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
+  .psira-dot { width: 6px; height: 6px; background: var(--gold); border-radius: 50%; }
+
+  @keyframes fadeSlideUp { from { opacity: 0; transform: translateY(28px); } to { opacity: 1; transform: translateY(0); } }
+  @keyframes fadeSlideLeft { from { opacity: 0; transform: translateX(20px); } to { opacity: 1; transform: translateX(0); } }
+  @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+  @keyframes scrollPulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+
+  @media (max-width: 900px) {
+    nav { padding: 1rem 1.5rem; }
+    nav ul { display: none; }
+    .hero { padding: 0 1.5rem 5rem; }
+    .hero-badge { display: none; }
+    section { padding: 5rem 1.5rem; }
+    #about, #responsibility, #contact { grid-template-columns: 1fr; gap: 3rem; }
+    .about-visual { height: 280px; }
+    .services-grid, .values-grid { grid-template-columns: 1fr; }
+    .sports-grid { grid-template-columns: repeat(2, 1fr); }
+    .events-intro, .events-capabilities { grid-template-columns: 1fr; gap: 2rem; }
+    .events-experience { grid-template-columns: 1fr 1fr; }
+    footer { padding: 2rem 1.5rem; flex-direction: column; text-align: center; }
+    .form-row { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="#" class="nav-logo">NKWANE <span>ASV</span></a>
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#events">UP Events</a></li>
+    <li><a href="#values">Values</a></li>
+    <li><a href="#contact" class="nav-cta">Contact</a></li>
+  </ul>
+</nav>
+
+<section class="hero" id="home">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+  <div class="hero-badge">
+    <div class="hero-badge-ring">
+      <span class="est">Est.</span>
+      <span class="year">2007</span>
+      <span class="reg">Registered</span>
+    </div>
+    <span class="hero-psira">PSIRA Grade B</span>
+  </div>
+  <div class="hero-content">
+    <div class="hero-eyebrow">
+      <span>Pretoria, Gauteng · Proudly South African · PSIRA Grade B</span>
+    </div>
+    <h1>SECURING<br><em>YOUR WORLD.</em></h1>
+    <p class="hero-sub">Nkwane ASV delivers professional security, cleaning, and sporting event management services across Pretoria — including large-scale events at the University of Pretoria's LC de Villiers Sports Campus. Rooted in integrity and community upliftment since 2007.</p>
+    <div class="hero-actions">
+      <a href="#events" class="btn-primary">UP Events</a>
+      <a href="#services" class="btn-outline">Our Services</a>
+      <a href="#contact" class="btn-outline">Get a Quote</a>
+    </div>
+  </div>
+  <div class="hero-scroll">
+    <div class="scroll-line"></div>
+    <span>Scroll</span>
+  </div>
+</section>
+
+<div class="stats-bar">
+  <div class="stat-item"><div class="stat-number">2007</div><div class="stat-label">Established</div></div>
+  <div class="stat-item"><div class="stat-number">2020+</div><div class="stat-label">UP Events Officer</div></div>
+  <div class="stat-item"><div class="stat-number">B</div><div class="stat-label">PSIRA Grade</div></div>
+  <div class="stat-item"><div class="stat-number">8+</div><div class="stat-label">Sports Codes Secured</div></div>
+  <div class="stat-item"><div class="stat-number">100%</div><div class="stat-label">South African Owned</div></div>
+</div>
+
+<section id="about">
+  <div class="about-visual">
+    <div class="about-block-main">
+      <svg class="shield-svg" viewBox="0 0 100 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M50 5L10 20V55C10 80 30 100 50 115C70 100 90 80 90 55V20L50 5Z" fill="none" stroke="#c9a84c" stroke-width="2"/>
+        <path d="M50 20L25 30V55C25 70 37 85 50 95C63 85 75 70 75 55V30L50 20Z" fill="rgba(201,168,76,0.1)" stroke="#c9a84c" stroke-width="1.5"/>
+        <path d="M38 58L46 66L64 48" stroke="#c9a84c" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+    <div class="about-block-accent"><p>"Transforming ordinary people into world-class individuals"</p></div>
+    <div class="about-year-tag">Reg. 2007 · Gauteng</div>
+  </div>
+  <div class="about-text">
+    <div class="section-header">
+      <div class="section-tag">About Nkwane ASV</div>
+      <h2 class="section-title">TRULY SOUTH<br><em>AFRICAN.</em></h2>
+    </div>
+    <p>Nkwane ASV is an independent, wholly South African practice established and registered in 2007. Based in Pretoria, we have a clear focus on grassroots communities and the upliftment of previously disadvantaged South Africans.</p>
+    <p>We conduct our affairs with uncompromising quality, innovation, integrity, honesty and professionalism — building lasting relationships with every client we serve.</p>
+    <div class="about-pillars">
+      <div class="pillar"><h4>Vision</h4><p>Upliftment of disadvantaged communities through quality, innovation and independence.</p></div>
+      <div class="pillar"><h4>Mission</h4><p>Affordable, client-oriented services empowering women and previously disadvantaged communities.</p></div>
+      <div class="pillar"><h4>Philosophy</h4><p>Serving people, planning with people, and building on what communities already have.</p></div>
+      <div class="pillar"><h4>Standard</h4><p>PSIRA Grade B (No. 621308). Minimum Grade 11 and 1 year experience for all officers.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="services">
+  <div class="section-header">
+    <div class="section-tag">What We Do</div>
+    <h2 class="section-title">TWO DIVISIONS,<br><em>ONE STANDARD.</em></h2>
+  </div>
+  <div class="services-grid">
+    <div class="service-card">
+      <span class="card-num">01</span>
+      <svg class="service-icon" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M26 4L6 13V28C6 40 16 48 26 51C36 48 46 40 46 28V13L26 4Z" stroke="#c9a84c" stroke-width="1.5" fill="none"/>
+        <path d="M18 27L24 33L35 22" stroke="#c9a84c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <h3>Security Services</h3>
+      <p>PSIRA Grade B certified officers — rigorously vetted, site-trained, and committed to protecting your assets and people with military-grade discipline and professionalism.</p>
+      <ul class="service-list">
+        <li>Integrity, criminal and credit assessments</li>
+        <li>ID and PSIRA certificate verification</li>
+        <li>Site-specific tailored training per assignment</li>
+        <li>Guarding, patrolling and access control</li>
+        <li>Alarm response and motor gate management</li>
+        <li>Event security and crowd control</li>
+        <li>SHE (Safety, Health &amp; Environment) compliant</li>
+        <li>Careers provided — not just jobs</li>
+      </ul>
+    </div>
+    <div class="service-card">
+      <span class="card-num">02</span>
+      <svg class="service-icon" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="26" cy="26" r="20" stroke="#c9a84c" stroke-width="1.5"/>
+        <path d="M18 30C18 30 20 22 26 22C32 22 34 30 34 30" stroke="#c9a84c" stroke-width="1.5" stroke-linecap="round"/>
+        <line x1="26" y1="14" x2="26" y2="18" stroke="#c9a84c" stroke-width="1.5" stroke-linecap="round"/>
+        <line x1="26" y1="34" x2="26" y2="38" stroke="#c9a84c" stroke-width="1.5" stroke-linecap="round"/>
+        <line x1="14" y1="26" x2="18" y2="26" stroke="#c9a84c" stroke-width="1.5" stroke-linecap="round"/>
+        <line x1="34" y1="26" x2="38" y2="26" stroke="#c9a84c" stroke-width="1.5" stroke-linecap="round"/>
+      </svg>
+      <h3>Cleaning Services</h3>
+      <p>Fully trained professionals using industry-approved chemicals and equipment. We supply all machinery and consumables — total facility hygiene management, delivered to standard.</p>
+      <ul class="service-list">
+        <li>Commercial offices and shopping centres</li>
+        <li>Hospitals, schools and government buildings</li>
+        <li>Hotels, nursing homes and industrial premises</li>
+        <li>Sanitary requisites and hygiene supply</li>
+        <li>Towel dispensers, soap dispensers, sanitary bins</li>
+        <li>Air fresheners and sanitisers</li>
+        <li>Consumable toilet requisites and paper towels</li>
+        <li>Ongoing accredited staff training programmes</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="events">
+  <div class="section-header">
+    <div class="section-tag">Events Security</div>
+    <h2 class="section-title">UNIVERSITY OF PRETORIA<br><em>SPORTS EVENTS.</em></h2>
+  </div>
+  <div class="events-intro">
+    <div class="events-intro-text">
+      <p>Since 2020, Nkwane ASV has been an active Event Security provider at the University of Pretoria, operating under the Fidelity Security Services framework at the Hillcrest Sports Campus (LC de Villiers).</p>
+      <p>We provide crowd control, access management, and safety coordination across a wide range of high-attendance sporting codes — from Varsity Cup rugby to national-level hockey tournaments. Our approach is grounded in formal risk assessment, SHE compliance, and military-disciplined operational protocols.</p>
+      <p>Every event is treated as a unique security challenge. Officers are briefed on site-specific access points, spectator flow, emergency evacuation routes, and crowd behaviour management per event.</p>
+    </div>
+    <div class="events-venue-card">
+      <div class="venue-label">Primary Venue</div>
+      <div class="venue-name">LC de Villiers Sports Campus</div>
+      <div class="venue-sub">Hillcrest · University of Pretoria</div>
+      <div class="venue-detail"><span class="venue-dot"></span>Hatfield, Pretoria, Gauteng</div>
+      <div class="venue-detail"><span class="venue-dot"></span>Multi-sport complex — international standard</div>
+      <div class="venue-detail"><span class="venue-dot"></span>High-capacity crowd events year-round</div>
+      <div class="venue-detail"><span class="venue-dot"></span>PSIRA and SHE compliant operations</div>
+      <div class="venue-detail"><span class="venue-dot"></span>Formal CPO-level risk assessments per event</div>
+    </div>
+  </div>
+
+  <div class="sports-grid">
+    <div class="sport-card"><span class="sport-icon">🏉</span><div class="sport-name">Rugby</div><div class="sport-detail">Varsity Cup &amp; club matches. High-crowd access and perimeter control.</div></div>
+    <div class="sport-card"><span class="sport-icon">⚽</span><div class="sport-name">Soccer</div><div class="sport-detail">Varsity Football. Spectator flow management and field boundary security.</div></div>
+    <div class="sport-card"><span class="sport-icon">🏑</span><div class="sport-name">Hockey</div><div class="sport-detail">National and inter-varsity events. Sideline and crowd management protocols.</div></div>
+    <div class="sport-card"><span class="sport-icon">🏐</span><div class="sport-name">Netball</div><div class="sport-detail">Indoor and outdoor fixtures. Access control and venue perimeter management.</div></div>
+    <div class="sport-card"><span class="sport-icon">🏊</span><div class="sport-name">Swimming</div><div class="sport-detail">Aquatic event security. Spectator area management and emergency coordination.</div></div>
+    <div class="sport-card"><span class="sport-icon">🎾</span><div class="sport-name">Tennis</div><div class="sport-detail">Court-side security and access management for tournament events.</div></div>
+    <div class="sport-card"><span class="sport-icon">🏋️</span><div class="sport-name">Athletics</div><div class="sport-detail">Track and field events. Barrier management and crowd flow control.</div></div>
+    <div class="sport-card"><span class="sport-icon">🎽</span><div class="sport-name">Multi-Sport Events</div><div class="sport-detail">Varsity Sports Series requiring full-site integrated security deployment.</div></div>
+  </div>
+
+  <div class="events-capabilities">
+    <div class="cap-group">
+      <h4>Operational Capabilities</h4>
+      <ul class="cap-list">
+        <li>Formal CPO-level risk assessment per event</li>
+        <li>Crowd control and spectator flow planning</li>
+        <li>Access point management and verification support</li>
+        <li>Emergency evacuation planning and coordination</li>
+        <li>VIP and player area perimeter security</li>
+        <li>Radio-coordinated multi-officer deployment</li>
+      </ul>
+    </div>
+    <div class="cap-group">
+      <h4>Compliance &amp; Credentials</h4>
+      <ul class="cap-list">
+        <li>PSIRA Grade B — No. 621308</li>
+        <li>NOSA SHE (Safety, Health &amp; Environment) trained</li>
+        <li>NQF Level 4 Train the Trainer certified</li>
+        <li>15 years SAAF military operational discipline</li>
+        <li>Incident reporting and post-event debriefs</li>
+        <li>Coordination with venue management and emergency services</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="events-experience">
+    <div class="exp-stat"><div class="big">2020</div><div class="lbl">First UP Event Deployment</div></div>
+    <div class="exp-stat"><div class="big">8+</div><div class="lbl">Sports Codes Covered</div></div>
+    <div class="exp-stat"><div class="big">FSS</div><div class="lbl">Fidelity Group Framework</div></div>
+  </div>
+</section>
+
+<section id="values">
+  <div class="section-header" style="text-align:center; max-width:600px; margin: 0 auto 4rem;">
+    <div class="section-tag" style="justify-content:center;">Our Core Values</div>
+    <h2 class="section-title">PRINCIPLES THAT<br><em>DRIVE US.</em></h2>
+  </div>
+  <div class="values-grid">
+    <div class="value-card"><div class="value-icon">🛡️</div><h4>Integrity</h4><p>Unwavering honesty and transparency in all dealings — with clients, staff, and the wider community.</p></div>
+    <div class="value-card"><div class="value-icon">⭐</div><h4>Quality</h4><p>Non-negotiable standards, continuously improved through ongoing training and site-specific preparation.</p></div>
+    <div class="value-card"><div class="value-icon">🤝</div><h4>Partnership</h4><p>Long-lasting client relationships and mutually beneficial industry alliances for shared knowledge and growth.</p></div>
+    <div class="value-card"><div class="value-icon">💡</div><h4>Innovation</h4><p>Using available resources creatively to deliver world-class outcomes and challenge the status quo.</p></div>
+    <div class="value-card"><div class="value-icon">🌍</div><h4>Ubuntu</h4><p>We plan with people, live among people, and build on what communities already have — uplifting from within.</p></div>
+    <div class="value-card"><div class="value-icon">📈</div><h4>Development</h4><p>We offer careers, not just jobs. Training, mentoring and career development are central to all we do.</p></div>
+  </div>
+</section>
+
+<section id="responsibility">
+  <div class="responsibility-visual">
+    <div class="resp-stat"><div class="big">Empowerment</div><div class="label">Central to Every Contract</div></div>
+    <div class="resp-stat"><div class="big">Women</div><div class="label">Actively Empowered</div></div>
+    <div class="resp-stat"><div class="big">PDI</div><div class="label">Priority Employment</div></div>
+    <div class="resp-stat"><div class="big">Skills</div><div class="label">Transfer Programme</div></div>
+    <div class="resp-stat"><div class="big">BEE</div><div class="label">Aligned Practice</div></div>
+  </div>
+  <div class="responsibility-text">
+    <div class="section-header">
+      <div class="section-tag">Social Responsibility</div>
+      <h2 class="section-title">BUILDING AN<br><em>EQUITABLE SA.</em></h2>
+    </div>
+    <p>Nkwane ASV is committed to creating an equitable society. Our social responsibility policy is woven into everything we do — from recruitment to training, mentoring and career development.</p>
+    <p>We actively recruit from previously disadvantaged communities and empower women to take leading roles within our organisation and operations.</p>
+    <ul class="commitment-list">
+      <li><span class="dot"></span>Recruit, train and mentor previously disadvantaged individuals</li>
+      <li><span class="dot"></span>Create career pathways and leadership opportunities for women</li>
+      <li><span class="dot"></span>Form alliances for skill sharing and capacity building</li>
+      <li><span class="dot"></span>Challenge criminal activities and promote safe environments</li>
+      <li><span class="dot"></span>Transform ordinary people into world-class professionals</li>
+    </ul>
+  </div>
+</section>
+
+<section id="contact">
+  <div>
+    <div class="section-header">
+      <div class="section-tag">Get In Touch</div>
+      <h2 class="section-title">LET'S WORK<br><em>TOGETHER.</em></h2>
+    </div>
+    <div class="contact-details">
+      <div class="contact-item">
+        <div class="contact-icon">☎️</div>
+        <div><h4>Telephone</h4><p><a href="tel:0120001696">012 000 1696</a></p></div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-icon">📱</div>
+        <div><h4>Mobile</h4><p><a href="tel:0815699773">081 569 9773</a> &nbsp;·&nbsp; <a href="tel:0768272700">076 827 2700</a></p></div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-icon">✉️</div>
+        <div><h4>Email</h4><p><a href="mailto:anthonyventer213@gmail.com">anthonyventer213@gmail.com</a></p></div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-icon">📍</div>
+        <div><h4>Location</h4><p>Pretoria, Gauteng · South Africa</p></div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-icon">🛡️</div>
+        <div><h4>PSIRA Registration</h4><p>Grade B · No. 621308<br>All officers fully vetted and certified</p></div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <form class="contact-form" onsubmit="handleSubmit(event)">
+      <div class="form-row">
+        <div class="form-field"><label>Full Name</label><input type="text" placeholder="Your name" required></div>
+        <div class="form-field"><label>Company / Organisation</label><input type="text" placeholder="Company name"></div>
+      </div>
+      <div class="form-row">
+        <div class="form-field"><label>Email</label><input type="email" placeholder="your@email.com" required></div>
+        <div class="form-field"><label>Phone</label><input type="tel" placeholder="+27 ..."></div>
+      </div>
+      <div class="form-field">
+        <label>Service Required</label>
+        <select>
+          <option value="">Select a service</option>
+          <option>Security Services</option>
+          <option>Cleaning Services</option>
+          <option>Event Security – University / Sport</option>
+          <option>Event Security – Corporate / Concert</option>
+          <option>Security + Cleaning (Combined)</option>
+          <option>Other / General Enquiry</option>
+        </select>
+      </div>
+      <div class="form-field"><label>Message</label><textarea placeholder="Tell us about your requirements, event date, venue and expected attendance..."></textarea></div>
+      <p class="form-note">We typically respond within 24 hours. All enquiries treated with strict confidentiality.</p>
+      <button type="submit" class="btn-primary" style="align-self:flex-start; margin-top:0.5rem;">Send Enquiry →</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-logo">NKWANE <span>ASV</span></div>
+  <p class="footer-copy">© 2007–2025 Nkwane ASV · Pretoria, Gauteng · Tel: 012 000 1696</p>
+  <div class="footer-psira"><span class="psira-dot"></span>PSIRA Grade B · No. 621308</div>
+</footer>
+
+<script>
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => { if (entry.isIntersecting) { entry.target.style.opacity = '1'; entry.target.style.transform = 'translateY(0)'; } });
+  }, { threshold: 0.08 });
+
+  document.querySelectorAll('.service-card, .value-card, .pillar, .resp-stat, .sport-card, .exp-stat').forEach((el, i) => {
+    el.style.opacity = '0';
+    el.style.transform = 'translateY(22px)';
+    el.style.transition = `opacity 0.55s ${i * 0.04}s ease, transform 0.55s ${i * 0.04}s ease`;
+    observer.observe(el);
+  });
+
+  function handleSubmit(e) {
+    e.preventDefault();
+    const btn = e.target.querySelector('button[type="submit"]');
+    btn.textContent = '✓ Enquiry Sent!';
+    btn.style.background = '#2a5a2a';
+    btn.style.color = '#a0d0a0';
+    setTimeout(() => { btn.textContent = 'Send Enquiry →'; btn.style.background = ''; btn.style.color = ''; e.target.reset(); }, 3500);
+  }
+</script>
+</body>
+</html>
