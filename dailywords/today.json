@@ -1,17 +1,17 @@
 {
-  "date": "2026-07-09",
-  "dayIndex": 920,
-  "generatedAt": "2026-07-09T04:05:58.107Z",
+  "date": "2026-07-10",
+  "dayIndex": 921,
+  "generatedAt": "2026-07-10T03:40:04.404Z",
   "word": {
-    "word": "Sonder",
-    "phonetic": "/ˈsɒndər/",
-    "pos": "noun",
-    "definition": "The realization that each passer-by is living a life as vivid and complex as your own.",
-    "example": "Standing in the crowd, a wave of sonder reminded her how many stories surrounded her.",
-    "origin": "Coined by John Koenig in the Dictionary of Obscure Sorrows.",
+    "word": "Ineffable",
+    "phonetic": "/ɪnˈɛfəb(ə)l/",
+    "pos": "adjective",
+    "definition": "Too great or extreme to be expressed or described in words.",
+    "example": "The view from the summit gave him an ineffable sense of peace.",
+    "origin": "Latin ineffabilis, from in- ‘not’ + effabilis ‘able to be uttered’.",
     "synonyms": [
-      "empathy",
-      "awareness"
+      "indescribable",
+      "inexpressible"
     ]
   }
 }
