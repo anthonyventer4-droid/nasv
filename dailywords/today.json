@@ -1,17 +1,18 @@
 {
-  "date": "2026-07-10",
-  "dayIndex": 921,
-  "generatedAt": "2026-07-10T03:40:04.404Z",
+  "date": "2026-07-11",
+  "dayIndex": 922,
+  "generatedAt": "2026-07-11T02:54:29.400Z",
   "word": {
-    "word": "Ineffable",
-    "phonetic": "/ɪnˈɛfəb(ə)l/",
+    "word": "Halcyon",
+    "phonetic": "/ˈhalsɪən/",
     "pos": "adjective",
-    "definition": "Too great or extreme to be expressed or described in words.",
-    "example": "The view from the summit gave him an ineffable sense of peace.",
-    "origin": "Latin ineffabilis, from in- ‘not’ + effabilis ‘able to be uttered’.",
+    "definition": "Denoting a period of time in the past that was idyllically happy and peaceful.",
+    "example": "She looked back on the halcyon days of her childhood summers.",
+    "origin": "Greek halkuōn, a mythical bird that calmed the seas.",
     "synonyms": [
-      "indescribable",
-      "inexpressible"
+      "serene",
+      "golden",
+      "tranquil"
     ]
   }
 }
