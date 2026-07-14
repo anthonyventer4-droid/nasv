@@ -1,18 +1,18 @@
 {
-  "date": "2026-07-13",
-  "dayIndex": 924,
-  "generatedAt": "2026-07-13T03:22:29.757Z",
+  "date": "2026-07-14",
+  "dayIndex": 925,
+  "generatedAt": "2026-07-14T02:46:35.416Z",
   "word": {
-    "word": "Serendipity",
-    "phonetic": "/ˌsɛr(ə)nˈdɪpɪti/",
-    "pos": "noun",
-    "definition": "The occurrence of events by chance in a happy or beneficial way.",
-    "example": "Finding that book was pure serendipity — it answered a question I'd had for years.",
-    "origin": "Coined by Horace Walpole in 1754, from the tale The Three Princes of Serendip.",
+    "word": "Luminous",
+    "phonetic": "/ˈluːmɪnəs/",
+    "pos": "adjective",
+    "definition": "Full of or shedding light; bright or shining, especially in the dark.",
+    "example": "The luminous dial of the watch glowed softly at night.",
+    "origin": "Latin lumen ‘light’.",
     "synonyms": [
-      "fluke",
-      "chance",
-      "fortuity"
+      "radiant",
+      "glowing",
+      "incandescent"
     ]
   }
 }
