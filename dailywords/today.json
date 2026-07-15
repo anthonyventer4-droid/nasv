@@ -1,18 +1,17 @@
 {
-  "date": "2026-07-14",
-  "dayIndex": 925,
-  "generatedAt": "2026-07-14T02:46:35.416Z",
+  "date": "2026-07-15",
+  "dayIndex": 926,
+  "generatedAt": "2026-07-15T02:45:06.485Z",
   "word": {
-    "word": "Luminous",
-    "phonetic": "/ˈluːmɪnəs/",
-    "pos": "adjective",
-    "definition": "Full of or shedding light; bright or shining, especially in the dark.",
-    "example": "The luminous dial of the watch glowed softly at night.",
-    "origin": "Latin lumen ‘light’.",
+    "word": "Wanderlust",
+    "phonetic": "/ˈwɒndəlʌst/",
+    "pos": "noun",
+    "definition": "A strong desire to travel and explore the world.",
+    "example": "Her wanderlust took her across three continents in a single year.",
+    "origin": "German wandern ‘to hike’ + Lust ‘desire’.",
     "synonyms": [
-      "radiant",
-      "glowing",
-      "incandescent"
+      "itchy feet",
+      "restlessness"
     ]
   }
 }
