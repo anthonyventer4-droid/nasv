@@ -1,17 +1,18 @@
 {
-  "date": "2026-07-15",
-  "dayIndex": 926,
-  "generatedAt": "2026-07-15T02:45:06.485Z",
+  "date": "2026-07-16",
+  "dayIndex": 927,
+  "generatedAt": "2026-07-16T02:51:34.041Z",
   "word": {
-    "word": "Wanderlust",
-    "phonetic": "/ˈwɒndəlʌst/",
-    "pos": "noun",
-    "definition": "A strong desire to travel and explore the world.",
-    "example": "Her wanderlust took her across three continents in a single year.",
-    "origin": "German wandern ‘to hike’ + Lust ‘desire’.",
+    "word": "Quixotic",
+    "phonetic": "/kwɪkˈsɒtɪk/",
+    "pos": "adjective",
+    "definition": "Exceedingly idealistic; unrealistic and impractical.",
+    "example": "His quixotic plan to end all traffic in the city won hearts but few votes.",
+    "origin": "From Don Quixote, the hero of Cervantes' novel.",
     "synonyms": [
-      "itchy feet",
-      "restlessness"
+      "idealistic",
+      "romantic",
+      "starry-eyed"
     ]
   }
 }
