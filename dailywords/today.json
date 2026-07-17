@@ -1,18 +1,18 @@
 {
-  "date": "2026-07-16",
-  "dayIndex": 927,
-  "generatedAt": "2026-07-16T02:51:34.041Z",
+  "date": "2026-07-17",
+  "dayIndex": 928,
+  "generatedAt": "2026-07-17T02:54:03.673Z",
   "word": {
-    "word": "Quixotic",
-    "phonetic": "/kwɪkˈsɒtɪk/",
+    "word": "Ebullient",
+    "phonetic": "/ɪˈbʌlɪənt/",
     "pos": "adjective",
-    "definition": "Exceedingly idealistic; unrealistic and impractical.",
-    "example": "His quixotic plan to end all traffic in the city won hearts but few votes.",
-    "origin": "From Don Quixote, the hero of Cervantes' novel.",
+    "definition": "Cheerful and full of energy; overflowing with enthusiasm.",
+    "example": "The ebullient host greeted every guest with a burst of laughter.",
+    "origin": "Latin ebullire ‘to boil up’.",
     "synonyms": [
-      "idealistic",
-      "romantic",
-      "starry-eyed"
+      "exuberant",
+      "buoyant",
+      "elated"
     ]
   }
 }
