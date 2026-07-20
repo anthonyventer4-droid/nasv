@@ -1,18 +1,18 @@
 {
-  "date": "2026-07-19",
-  "dayIndex": 930,
-  "generatedAt": "2026-07-19T03:16:30.156Z",
+  "date": "2026-07-20",
+  "dayIndex": 931,
+  "generatedAt": "2026-07-20T03:30:15.450Z",
   "word": {
-    "word": "Effervescent",
-    "phonetic": "/ˌɛfəˈvɛs(ə)nt/",
-    "pos": "adjective",
-    "definition": "Vivacious and enthusiastic; bubbling with liveliness.",
-    "example": "Her effervescent personality lit up the entire room.",
-    "origin": "Latin effervescere ‘to boil up, foam’.",
+    "word": "Solitude",
+    "phonetic": "/ˈsɒlɪtjuːd/",
+    "pos": "noun",
+    "definition": "The state or situation of being alone, often by choice and peacefully.",
+    "example": "He craved the solitude of the mountains after a hectic week.",
+    "origin": "Latin solitudo, from solus ‘alone’.",
     "synonyms": [
-      "bubbly",
-      "vivacious",
-      "sparkling"
+      "seclusion",
+      "privacy",
+      "isolation"
     ]
   }
 }
