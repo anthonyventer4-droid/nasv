@@ -1,18 +1,18 @@
 {
-  "date": "2026-07-22",
-  "dayIndex": 933,
-  "generatedAt": "2026-07-22T02:54:31.537Z",
+  "date": "2026-07-23",
+  "dayIndex": 934,
+  "generatedAt": "2026-07-23T03:16:18.697Z",
   "word": {
-    "word": "Nefarious",
-    "phonetic": "/nɪˈfɛːrɪəs/",
-    "pos": "adjective",
-    "definition": "Wicked, villainous, or criminal in nature.",
-    "example": "The detective uncovered a nefarious scheme to defraud investors.",
-    "origin": "Latin nefarius, from nefas ‘wrong, crime’.",
+    "word": "Panacea",
+    "phonetic": "/ˌpanəˈsiːə/",
+    "pos": "noun",
+    "definition": "A solution or remedy for all difficulties or diseases.",
+    "example": "Technology is powerful, but it is no panacea for social problems.",
+    "origin": "Greek panakēs ‘all-healing’.",
     "synonyms": [
-      "villainous",
-      "iniquitous",
-      "heinous"
+      "cure-all",
+      "elixir",
+      "remedy"
     ]
   }
 }
