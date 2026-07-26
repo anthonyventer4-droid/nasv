@@ -1,18 +1,18 @@
 {
-  "date": "2026-07-25",
-  "dayIndex": 936,
-  "generatedAt": "2026-07-25T02:54:32.047Z",
+  "date": "2026-07-26",
+  "dayIndex": 937,
+  "generatedAt": "2026-07-26T03:20:44.647Z",
   "word": {
-    "word": "Idyllic",
-    "phonetic": "/ɪˈdɪlɪk/",
+    "word": "Ubiquitous",
+    "phonetic": "/juːˈbɪkwɪtəs/",
     "pos": "adjective",
-    "definition": "Extremely happy, peaceful, or picturesque.",
-    "example": "They spent an idyllic afternoon by the lake.",
-    "origin": "Greek eidyllion ‘little picture’.",
+    "definition": "Present, appearing, or found everywhere.",
+    "example": "Smartphones have become ubiquitous in modern life.",
+    "origin": "Latin ubique ‘everywhere’.",
     "synonyms": [
-      "heavenly",
-      "blissful",
-      "picturesque"
+      "omnipresent",
+      "pervasive",
+      "universal"
     ]
   }
 }
