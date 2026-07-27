@@ -1,18 +1,18 @@
 {
-  "date": "2026-07-26",
-  "dayIndex": 937,
-  "generatedAt": "2026-07-26T03:20:44.647Z",
+  "date": "2026-07-27",
+  "dayIndex": 938,
+  "generatedAt": "2026-07-27T03:30:51.807Z",
   "word": {
-    "word": "Ubiquitous",
-    "phonetic": "/juːˈbɪkwɪtəs/",
-    "pos": "adjective",
-    "definition": "Present, appearing, or found everywhere.",
-    "example": "Smartphones have become ubiquitous in modern life.",
-    "origin": "Latin ubique ‘everywhere’.",
+    "word": "Cascade",
+    "phonetic": "/kaˈskeɪd/",
+    "pos": "noun",
+    "definition": "A small waterfall, or a process whereby something happens in a series of stages.",
+    "example": "A cascade of errors followed the single missed deadline.",
+    "origin": "Italian cascata, from cascare ‘to fall’.",
     "synonyms": [
-      "omnipresent",
-      "pervasive",
-      "universal"
+      "waterfall",
+      "torrent",
+      "flood"
     ]
   }
 }
