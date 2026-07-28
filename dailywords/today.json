@@ -1,18 +1,18 @@
 {
-  "date": "2026-07-27",
-  "dayIndex": 938,
-  "generatedAt": "2026-07-27T03:30:51.807Z",
+  "date": "2026-07-28",
+  "dayIndex": 939,
+  "generatedAt": "2026-07-28T02:47:10.163Z",
   "word": {
-    "word": "Cascade",
-    "phonetic": "/kaˈskeɪd/",
+    "word": "Aplomb",
+    "phonetic": "/əˈplɒm/",
     "pos": "noun",
-    "definition": "A small waterfall, or a process whereby something happens in a series of stages.",
-    "example": "A cascade of errors followed the single missed deadline.",
-    "origin": "Italian cascata, from cascare ‘to fall’.",
+    "definition": "Self-confidence or assurance, especially in a demanding situation.",
+    "example": "She handled the hostile questions with remarkable aplomb.",
+    "origin": "French à plomb ‘according to the plummet, perpendicular’.",
     "synonyms": [
-      "waterfall",
-      "torrent",
-      "flood"
+      "poise",
+      "composure",
+      "self-assurance"
     ]
   }
 }
