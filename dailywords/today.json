@@ -1,18 +1,18 @@
 {
-  "date": "2026-07-30",
-  "dayIndex": 941,
-  "generatedAt": "2026-07-30T02:39:14.164Z",
+  "date": "2026-07-31",
+  "dayIndex": 942,
+  "generatedAt": "2026-07-31T03:20:53.987Z",
   "word": {
-    "word": "Gossamer",
-    "phonetic": "/ˈɡɒsəmə/",
-    "pos": "noun",
-    "definition": "A fine, filmy substance; something extremely light, thin, and delicate.",
-    "example": "The dress was made of a gossamer so light it seemed to float.",
-    "origin": "Middle English, probably ‘goose summer’, a mild period when geese were eaten.",
+    "word": "Incandescent",
+    "phonetic": "/ɪnkanˈdɛs(ə)nt/",
+    "pos": "adjective",
+    "definition": "Emitting light as a result of being heated; full of strong emotion; brilliant.",
+    "example": "The critic gave the performance an incandescent review.",
+    "origin": "Latin incandescere ‘to glow’.",
     "synonyms": [
-      "cobweb",
-      "filament",
-      "spider-silk"
+      "glowing",
+      "radiant",
+      "brilliant"
     ]
   }
 }
