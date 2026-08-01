@@ -1,18 +1,18 @@
 {
-  "date": "2026-07-31",
-  "dayIndex": 942,
-  "generatedAt": "2026-07-31T03:20:53.987Z",
+  "date": "2026-08-01",
+  "dayIndex": 943,
+  "generatedAt": "2026-08-01T03:18:43.664Z",
   "word": {
-    "word": "Incandescent",
-    "phonetic": "/ɪnkanˈdɛs(ə)nt/",
-    "pos": "adjective",
-    "definition": "Emitting light as a result of being heated; full of strong emotion; brilliant.",
-    "example": "The critic gave the performance an incandescent review.",
-    "origin": "Latin incandescere ‘to glow’.",
+    "word": "Meander",
+    "phonetic": "/mɪˈandə/",
+    "pos": "verb",
+    "definition": "To follow a winding course; to wander aimlessly and idly.",
+    "example": "We let the conversation meander across a dozen topics.",
+    "origin": "From the Maiandros, a notably winding river in ancient Turkey.",
     "synonyms": [
-      "glowing",
-      "radiant",
-      "brilliant"
+      "wind",
+      "wander",
+      "ramble"
     ]
   }
 }
