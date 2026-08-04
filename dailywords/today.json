@@ -1,18 +1,18 @@
 {
-  "date": "2026-08-03",
-  "dayIndex": 945,
-  "generatedAt": "2026-08-03T03:20:49.014Z",
+  "date": "2026-08-04",
+  "dayIndex": 946,
+  "generatedAt": "2026-08-04T02:49:59.834Z",
   "word": {
-    "word": "Tenacity",
-    "phonetic": "/tɪˈnasɪti/",
+    "word": "Reverie",
+    "phonetic": "/ˈrɛv(ə)ri/",
     "pos": "noun",
-    "definition": "The quality of being determined and persistent.",
-    "example": "It was sheer tenacity, not talent, that carried her to the finish.",
-    "origin": "Latin tenax ‘holding fast’.",
+    "definition": "A state of being pleasantly lost in one's thoughts; a daydream.",
+    "example": "The gentle hum of the train lulled him into a reverie.",
+    "origin": "Old French reverie ‘rejoicing, revelry’.",
     "synonyms": [
-      "persistence",
-      "doggedness",
-      "resolve"
+      "daydream",
+      "trance",
+      "musing"
     ]
   }
 }
