@@ -1,18 +1,18 @@
 {
-  "date": "2026-08-04",
-  "dayIndex": 946,
-  "generatedAt": "2026-08-04T02:49:59.834Z",
+  "date": "2026-08-05",
+  "dayIndex": 947,
+  "generatedAt": "2026-08-05T02:47:18.089Z",
   "word": {
-    "word": "Reverie",
-    "phonetic": "/ˈrɛv(ə)ri/",
-    "pos": "noun",
-    "definition": "A state of being pleasantly lost in one's thoughts; a daydream.",
-    "example": "The gentle hum of the train lulled him into a reverie.",
-    "origin": "Old French reverie ‘rejoicing, revelry’.",
+    "word": "Kindle",
+    "phonetic": "/ˈkɪnd(ə)l/",
+    "pos": "verb",
+    "definition": "To light or set alight; to arouse or inspire an emotion.",
+    "example": "A single question can kindle a lifelong curiosity.",
+    "origin": "Old Norse kynda ‘to set fire to’.",
     "synonyms": [
-      "daydream",
-      "trance",
-      "musing"
+      "ignite",
+      "spark",
+      "arouse"
     ]
   }
 }
