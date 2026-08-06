@@ -1,18 +1,18 @@
 {
-  "date": "2026-08-05",
-  "dayIndex": 947,
-  "generatedAt": "2026-08-05T02:47:18.089Z",
+  "date": "2026-08-06",
+  "dayIndex": 948,
+  "generatedAt": "2026-08-06T02:50:03.657Z",
   "word": {
-    "word": "Kindle",
-    "phonetic": "/ˈkɪnd(ə)l/",
-    "pos": "verb",
-    "definition": "To light or set alight; to arouse or inspire an emotion.",
-    "example": "A single question can kindle a lifelong curiosity.",
-    "origin": "Old Norse kynda ‘to set fire to’.",
+    "word": "Lucid",
+    "phonetic": "/ˈluːsɪd/",
+    "pos": "adjective",
+    "definition": "Expressed clearly; easy to understand; mentally sharp.",
+    "example": "Her lucid explanation made the hard concept feel simple.",
+    "origin": "Latin lucidus ‘bright, clear’.",
     "synonyms": [
-      "ignite",
-      "spark",
-      "arouse"
+      "clear",
+      "coherent",
+      "articulate"
     ]
   }
 }
