@@ -1,18 +1,18 @@
 {
-  "date": "2026-08-07",
-  "dayIndex": 949,
-  "generatedAt": "2026-08-07T02:48:57.319Z",
+  "date": "2026-08-08",
+  "dayIndex": 950,
+  "generatedAt": "2026-08-08T01:51:15.751Z",
   "word": {
-    "word": "Cornucopia",
-    "phonetic": "/ˌkɔːnjʊˈkəʊpɪə/",
-    "pos": "noun",
-    "definition": "An abundant supply of good things; a horn of plenty.",
-    "example": "The market was a cornucopia of colours, spices, and sounds.",
-    "origin": "Latin cornu copiae ‘horn of plenty’.",
+    "word": "Elysian",
+    "phonetic": "/ɪˈlɪzɪən/",
+    "pos": "adjective",
+    "definition": "Beautiful or creative; divinely inspired; peaceful and perfect.",
+    "example": "The garden had an almost elysian calm at first light.",
+    "origin": "From Elysium, the paradise of Greek mythology.",
     "synonyms": [
-      "abundance",
-      "profusion",
-      "wealth"
+      "blissful",
+      "heavenly",
+      "paradisiacal"
     ]
   }
 }
