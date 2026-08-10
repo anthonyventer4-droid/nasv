@@ -1,5 +1,10 @@
 [
   {
+    "date": "2026-08-10",
+    "word": "Iridescent",
+    "definition": "Showing luminous colours that seem to change when seen from different angles."
+  },
+  {
     "date": "2026-08-09",
     "word": "Fathom",
     "definition": "To understand after much thought; to penetrate the meaning of."
@@ -143,10 +148,5 @@
     "date": "2026-07-12",
     "word": "Mellifluous",
     "definition": "Sweet or musical; pleasant to hear."
-  },
-  {
-    "date": "2026-07-11",
-    "word": "Halcyon",
-    "definition": "Denoting a period of time in the past that was idyllically happy and peaceful."
   }
 ]

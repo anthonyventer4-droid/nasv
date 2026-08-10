@@ -1,18 +1,18 @@
 {
-  "date": "2026-08-09",
-  "dayIndex": 951,
-  "generatedAt": "2026-08-09T01:58:37.329Z",
+  "date": "2026-08-10",
+  "dayIndex": 952,
+  "generatedAt": "2026-08-10T02:03:19.392Z",
   "word": {
-    "word": "Fathom",
-    "phonetic": "/ˈfaðəm/",
-    "pos": "verb",
-    "definition": "To understand after much thought; to penetrate the meaning of.",
-    "example": "She could not fathom why the plan had failed so suddenly.",
-    "origin": "Old English fæthm ‘outstretched arms’, later a unit of depth.",
+    "word": "Iridescent",
+    "phonetic": "/ˌɪrɪˈdɛs(ə)nt/",
+    "pos": "adjective",
+    "definition": "Showing luminous colours that seem to change when seen from different angles.",
+    "example": "The beetle's iridescent shell shimmered green and gold.",
+    "origin": "Latin iris ‘rainbow’.",
     "synonyms": [
-      "comprehend",
-      "grasp",
-      "decipher"
+      "shimmering",
+      "opalescent",
+      "prismatic"
     ]
   }
 }
