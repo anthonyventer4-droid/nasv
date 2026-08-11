@@ -1,18 +1,18 @@
 {
-  "date": "2026-08-10",
-  "dayIndex": 952,
-  "generatedAt": "2026-08-10T02:03:19.392Z",
+  "date": "2026-08-11",
+  "dayIndex": 953,
+  "generatedAt": "2026-08-11T01:58:24.146Z",
   "word": {
-    "word": "Iridescent",
-    "phonetic": "/ˌɪrɪˈdɛs(ə)nt/",
-    "pos": "adjective",
-    "definition": "Showing luminous colours that seem to change when seen from different angles.",
-    "example": "The beetle's iridescent shell shimmered green and gold.",
-    "origin": "Latin iris ‘rainbow’.",
+    "word": "Solace",
+    "phonetic": "/ˈsɒlɪs/",
+    "pos": "noun",
+    "definition": "Comfort or consolation in a time of distress or sadness.",
+    "example": "He found solace in long walks along the shore.",
+    "origin": "Latin solari ‘to console’.",
     "synonyms": [
-      "shimmering",
-      "opalescent",
-      "prismatic"
+      "comfort",
+      "consolation",
+      "relief"
     ]
   }
 }
