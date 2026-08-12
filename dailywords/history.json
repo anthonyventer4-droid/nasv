@@ -1,5 +1,10 @@
 [
   {
+    "date": "2026-08-12",
+    "word": "Vivid",
+    "definition": "Producing powerful, clear images in the mind; intensely bright."
+  },
+  {
     "date": "2026-08-11",
     "word": "Solace",
     "definition": "Comfort or consolation in a time of distress or sadness."
@@ -143,10 +148,5 @@
     "date": "2026-07-14",
     "word": "Luminous",
     "definition": "Full of or shedding light; bright or shining, especially in the dark."
-  },
-  {
-    "date": "2026-07-13",
-    "word": "Serendipity",
-    "definition": "The occurrence of events by chance in a happy or beneficial way."
   }
 ]
