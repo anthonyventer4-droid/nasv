@@ -1,18 +1,18 @@
 {
-  "date": "2026-08-12",
-  "dayIndex": 954,
-  "generatedAt": "2026-08-12T02:11:07.752Z",
+  "date": "2026-08-13",
+  "dayIndex": 955,
+  "generatedAt": "2026-08-13T02:13:50.404Z",
   "word": {
-    "word": "Vivid",
-    "phonetic": "/ˈvɪvɪd/",
+    "word": "Whimsical",
+    "phonetic": "/ˈwɪmzɪk(ə)l/",
     "pos": "adjective",
-    "definition": "Producing powerful, clear images in the mind; intensely bright.",
-    "example": "She had a vivid memory of the day they first met.",
-    "origin": "Latin vividus ‘lively’.",
+    "definition": "Playfully quaint or fanciful, especially in an appealing way.",
+    "example": "The shop was full of whimsical clocks that ran backwards.",
+    "origin": "From whim, of uncertain 17th-century origin.",
     "synonyms": [
-      "striking",
-      "graphic",
-      "brilliant"
+      "fanciful",
+      "playful",
+      "capricious"
     ]
   }
 }
