@@ -1,18 +1,18 @@
 {
-  "date": "2026-08-13",
-  "dayIndex": 955,
-  "generatedAt": "2026-08-13T02:13:50.404Z",
+  "date": "2026-08-14",
+  "dayIndex": 956,
+  "generatedAt": "2026-08-14T02:11:10.226Z",
   "word": {
-    "word": "Whimsical",
-    "phonetic": "/ˈwɪmzɪk(ə)l/",
-    "pos": "adjective",
-    "definition": "Playfully quaint or fanciful, especially in an appealing way.",
-    "example": "The shop was full of whimsical clocks that ran backwards.",
-    "origin": "From whim, of uncertain 17th-century origin.",
+    "word": "Zenith",
+    "phonetic": "/ˈzɛnɪθ/",
+    "pos": "noun",
+    "definition": "The time at which something is most powerful or successful; the highest point.",
+    "example": "The empire reached its zenith in the second century.",
+    "origin": "Arabic samt (ar-ra's) ‘path (over the head)’.",
     "synonyms": [
-      "fanciful",
-      "playful",
-      "capricious"
+      "peak",
+      "apex",
+      "pinnacle"
     ]
   }
 }
