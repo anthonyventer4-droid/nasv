@@ -1,18 +1,18 @@
 {
-  "date": "2026-08-14",
-  "dayIndex": 956,
-  "generatedAt": "2026-08-14T02:11:10.226Z",
+  "date": "2026-08-15",
+  "dayIndex": 957,
+  "generatedAt": "2026-08-15T01:23:54.639Z",
   "word": {
-    "word": "Zenith",
-    "phonetic": "/ˈzɛnɪθ/",
-    "pos": "noun",
-    "definition": "The time at which something is most powerful or successful; the highest point.",
-    "example": "The empire reached its zenith in the second century.",
-    "origin": "Arabic samt (ar-ra's) ‘path (over the head)’.",
+    "word": "Beguile",
+    "phonetic": "/bɪˈɡʌɪl/",
+    "pos": "verb",
+    "definition": "To charm or enchant, sometimes in a deceptive way.",
+    "example": "The storyteller beguiled the children for hours.",
+    "origin": "Middle English, from be- + guile ‘cunning’.",
     "synonyms": [
-      "peak",
-      "apex",
-      "pinnacle"
+      "charm",
+      "enchant",
+      "captivate"
     ]
   }
 }
