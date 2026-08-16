@@ -1,18 +1,18 @@
 {
-  "date": "2026-08-15",
-  "dayIndex": 957,
-  "generatedAt": "2026-08-15T01:23:54.639Z",
+  "date": "2026-08-16",
+  "dayIndex": 958,
+  "generatedAt": "2026-08-16T01:35:27.669Z",
   "word": {
-    "word": "Beguile",
-    "phonetic": "/bɪˈɡʌɪl/",
-    "pos": "verb",
-    "definition": "To charm or enchant, sometimes in a deceptive way.",
-    "example": "The storyteller beguiled the children for hours.",
-    "origin": "Middle English, from be- + guile ‘cunning’.",
+    "word": "Cadence",
+    "phonetic": "/ˈkeɪd(ə)ns/",
+    "pos": "noun",
+    "definition": "A modulation or rhythm in sound; the flow or beat of speech or movement.",
+    "example": "The poem's gentle cadence made it easy to remember.",
+    "origin": "Latin cadere ‘to fall’.",
     "synonyms": [
-      "charm",
-      "enchant",
-      "captivate"
+      "rhythm",
+      "beat",
+      "lilt"
     ]
   }
 }

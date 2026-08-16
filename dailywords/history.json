@@ -1,5 +1,10 @@
 [
   {
+    "date": "2026-08-16",
+    "word": "Cadence",
+    "definition": "A modulation or rhythm in sound; the flow or beat of speech or movement."
+  },
+  {
     "date": "2026-08-15",
     "word": "Beguile",
     "definition": "To charm or enchant, sometimes in a deceptive way."
@@ -143,10 +148,5 @@
     "date": "2026-07-18",
     "word": "Nadir",
     "definition": "The lowest or most unsuccessful point in a situation."
-  },
-  {
-    "date": "2026-07-17",
-    "word": "Ebullient",
-    "definition": "Cheerful and full of energy; overflowing with enthusiasm."
   }
 ]
