@@ -1,18 +1,18 @@
 {
-  "date": "2026-08-16",
-  "dayIndex": 958,
-  "generatedAt": "2026-08-16T01:35:27.669Z",
+  "date": "2026-08-17",
+  "dayIndex": 959,
+  "generatedAt": "2026-08-17T01:26:35.644Z",
   "word": {
-    "word": "Cadence",
-    "phonetic": "/ˈkeɪd(ə)ns/",
-    "pos": "noun",
-    "definition": "A modulation or rhythm in sound; the flow or beat of speech or movement.",
-    "example": "The poem's gentle cadence made it easy to remember.",
-    "origin": "Latin cadere ‘to fall’.",
+    "word": "Diaphanous",
+    "phonetic": "/dʌɪˈafənəs/",
+    "pos": "adjective",
+    "definition": "Light, delicate, and translucent; almost transparent.",
+    "example": "Diaphanous curtains let the morning light pour in.",
+    "origin": "Greek diaphanēs ‘showing through’.",
     "synonyms": [
-      "rhythm",
-      "beat",
-      "lilt"
+      "sheer",
+      "gauzy",
+      "translucent"
     ]
   }
 }
