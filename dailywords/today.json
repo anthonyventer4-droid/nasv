@@ -1,18 +1,18 @@
 {
-  "date": "2026-08-17",
-  "dayIndex": 959,
-  "generatedAt": "2026-08-17T01:26:35.644Z",
+  "date": "2026-08-18",
+  "dayIndex": 960,
+  "generatedAt": "2026-08-18T01:23:32.983Z",
   "word": {
-    "word": "Diaphanous",
-    "phonetic": "/dʌɪˈafənəs/",
-    "pos": "adjective",
-    "definition": "Light, delicate, and translucent; almost transparent.",
-    "example": "Diaphanous curtains let the morning light pour in.",
-    "origin": "Greek diaphanēs ‘showing through’.",
+    "word": "Epiphany",
+    "phonetic": "/ɪˈpɪf(ə)ni/",
+    "pos": "noun",
+    "definition": "A sudden, striking realization or moment of insight.",
+    "example": "In the shower she had an epiphany about how to fix the bug.",
+    "origin": "Greek epiphaneia ‘manifestation’.",
     "synonyms": [
-      "sheer",
-      "gauzy",
-      "translucent"
+      "revelation",
+      "insight",
+      "eureka moment"
     ]
   }
 }
