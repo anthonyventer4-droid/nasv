@@ -1,18 +1,18 @@
 {
-  "date": "2026-08-18",
-  "dayIndex": 960,
-  "generatedAt": "2026-08-18T01:23:32.983Z",
+  "date": "2026-08-19",
+  "dayIndex": 961,
+  "generatedAt": "2026-08-19T01:25:03.984Z",
   "word": {
-    "word": "Epiphany",
-    "phonetic": "/ɪˈpɪf(ə)ni/",
-    "pos": "noun",
-    "definition": "A sudden, striking realization or moment of insight.",
-    "example": "In the shower she had an epiphany about how to fix the bug.",
-    "origin": "Greek epiphaneia ‘manifestation’.",
+    "word": "Fastidious",
+    "phonetic": "/faˈstɪdɪəs/",
+    "pos": "adjective",
+    "definition": "Very attentive to accuracy and detail; hard to please.",
+    "example": "A fastidious editor, she caught every stray comma.",
+    "origin": "Latin fastidium ‘loathing’.",
     "synonyms": [
-      "revelation",
-      "insight",
-      "eureka moment"
+      "meticulous",
+      "scrupulous",
+      "exacting"
     ]
   }
 }
