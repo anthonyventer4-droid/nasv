@@ -1,18 +1,18 @@
 {
-  "date": "2026-08-19",
-  "dayIndex": 961,
-  "generatedAt": "2026-08-19T01:25:03.984Z",
+  "date": "2026-08-20",
+  "dayIndex": 962,
+  "generatedAt": "2026-08-20T01:24:19.809Z",
   "word": {
-    "word": "Fastidious",
-    "phonetic": "/faˈstɪdɪəs/",
-    "pos": "adjective",
-    "definition": "Very attentive to accuracy and detail; hard to please.",
-    "example": "A fastidious editor, she caught every stray comma.",
-    "origin": "Latin fastidium ‘loathing’.",
+    "word": "Galvanize",
+    "phonetic": "/ˈɡalvənʌɪz/",
+    "pos": "verb",
+    "definition": "To shock or excite someone into taking decisive action.",
+    "example": "The speech galvanized the volunteers into action overnight.",
+    "origin": "From Luigi Galvani, who studied electrical effects on muscles.",
     "synonyms": [
-      "meticulous",
-      "scrupulous",
-      "exacting"
+      "spur",
+      "energize",
+      "mobilize"
     ]
   }
 }
