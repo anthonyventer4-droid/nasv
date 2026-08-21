@@ -1,18 +1,16 @@
 {
-  "date": "2026-08-20",
-  "dayIndex": 962,
-  "generatedAt": "2026-08-20T01:24:19.809Z",
+  "date": "2026-08-21",
+  "dayIndex": 963,
+  "generatedAt": "2026-08-21T01:34:23.290Z",
   "word": {
-    "word": "Galvanize",
-    "phonetic": "/ˈɡalvənʌɪz/",
-    "pos": "verb",
-    "definition": "To shock or excite someone into taking decisive action.",
-    "example": "The speech galvanized the volunteers into action overnight.",
-    "origin": "From Luigi Galvani, who studied electrical effects on muscles.",
+    "word": "Halloween",
+    "phonetic": "/ˌhaləˈwiːn/",
+    "pos": "noun",
+    "definition": "The night of 31 October, traditionally associated with ghosts and costumes.",
+    "example": "The children carved lanterns for Halloween.",
+    "origin": "Contraction of All Hallows' Even.",
     "synonyms": [
-      "spur",
-      "energize",
-      "mobilize"
+      "All Hallows' Eve"
     ]
   }
 }

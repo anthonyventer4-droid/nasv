@@ -1,5 +1,10 @@
 [
   {
+    "date": "2026-08-21",
+    "word": "Halloween",
+    "definition": "The night of 31 October, traditionally associated with ghosts and costumes."
+  },
+  {
     "date": "2026-08-20",
     "word": "Galvanize",
     "definition": "To shock or excite someone into taking decisive action."
@@ -143,10 +148,5 @@
     "date": "2026-07-23",
     "word": "Panacea",
     "definition": "A solution or remedy for all difficulties or diseases."
-  },
-  {
-    "date": "2026-07-22",
-    "word": "Nefarious",
-    "definition": "Wicked, villainous, or criminal in nature."
   }
 ]
