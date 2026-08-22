@@ -1,5 +1,10 @@
 [
   {
+    "date": "2026-08-22",
+    "word": "Insouciant",
+    "definition": "Showing a casual lack of concern; carefree and unbothered."
+  },
+  {
     "date": "2026-08-21",
     "word": "Halloween",
     "definition": "The night of 31 October, traditionally associated with ghosts and costumes."
@@ -143,10 +148,5 @@
     "date": "2026-07-24",
     "word": "Resilience",
     "definition": "The capacity to recover quickly from difficulties; toughness."
-  },
-  {
-    "date": "2026-07-23",
-    "word": "Panacea",
-    "definition": "A solution or remedy for all difficulties or diseases."
   }
 ]
