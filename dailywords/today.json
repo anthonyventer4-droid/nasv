@@ -1,18 +1,18 @@
 {
-  "date": "2026-08-24",
-  "dayIndex": 966,
-  "generatedAt": "2026-08-24T01:35:25.665Z",
+  "date": "2026-08-25",
+  "dayIndex": 967,
+  "generatedAt": "2026-08-25T01:24:57.822Z",
   "word": {
-    "word": "Kaleidoscope",
-    "phonetic": "/kəˈlʌɪdəskəʊp/",
+    "word": "Labyrinth",
+    "phonetic": "/ˈlab(ə)rɪnθ/",
     "pos": "noun",
-    "definition": "A constantly changing pattern or sequence of elements.",
-    "example": "The festival was a kaleidoscope of music, colour, and food.",
-    "origin": "Greek kalos ‘beautiful’ + eidos ‘form’ + -scope.",
+    "definition": "A complicated, irregular network of passages; an intricate maze.",
+    "example": "The old town was a labyrinth of narrow, twisting lanes.",
+    "origin": "Greek labyrinthos, the maze of the Minotaur.",
     "synonyms": [
-      "medley",
-      "array",
-      "montage"
+      "maze",
+      "warren",
+      "network"
     ]
   }
 }
