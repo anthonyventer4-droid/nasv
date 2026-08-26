@@ -1,18 +1,17 @@
 {
-  "date": "2026-08-25",
-  "dayIndex": 967,
-  "generatedAt": "2026-08-25T01:24:57.822Z",
+  "date": "2026-08-26",
+  "dayIndex": 968,
+  "generatedAt": "2026-08-26T01:34:58.367Z",
   "word": {
-    "word": "Labyrinth",
-    "phonetic": "/ˈlab(ə)rɪnθ/",
+    "word": "Nocturne",
+    "phonetic": "/ˈnɒktəːn/",
     "pos": "noun",
-    "definition": "A complicated, irregular network of passages; an intricate maze.",
-    "example": "The old town was a labyrinth of narrow, twisting lanes.",
-    "origin": "Greek labyrinthos, the maze of the Minotaur.",
+    "definition": "A short musical composition, typically for piano, evoking the night.",
+    "example": "She played a gentle nocturne as the room fell dark.",
+    "origin": "French, from Latin nocturnus ‘of the night’.",
     "synonyms": [
-      "maze",
-      "warren",
-      "network"
+      "serenade",
+      "night piece"
     ]
   }
 }
