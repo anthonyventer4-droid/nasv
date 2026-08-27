@@ -1,5 +1,10 @@
 [
   {
+    "date": "2026-08-27",
+    "word": "Petrichor",
+    "definition": "The pleasant, earthy smell produced when rain falls on dry soil."
+  },
+  {
     "date": "2026-08-26",
     "word": "Nocturne",
     "definition": "A short musical composition, typically for piano, evoking the night."
@@ -143,10 +148,5 @@
     "date": "2026-07-29",
     "word": "Verdant",
     "definition": "Green with grass or other rich vegetation; lush."
-  },
-  {
-    "date": "2026-07-28",
-    "word": "Aplomb",
-    "definition": "Self-confidence or assurance, especially in a demanding situation."
   }
 ]

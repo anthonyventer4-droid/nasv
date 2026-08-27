@@ -1,17 +1,17 @@
 {
-  "date": "2026-08-26",
-  "dayIndex": 968,
-  "generatedAt": "2026-08-26T01:34:58.367Z",
+  "date": "2026-08-27",
+  "dayIndex": 969,
+  "generatedAt": "2026-08-27T08:21:01.429Z",
   "word": {
-    "word": "Nocturne",
-    "phonetic": "/ˈnɒktəːn/",
+    "word": "Petrichor",
+    "phonetic": "/ˈpɛtrɪkɔːr/",
     "pos": "noun",
-    "definition": "A short musical composition, typically for piano, evoking the night.",
-    "example": "She played a gentle nocturne as the room fell dark.",
-    "origin": "French, from Latin nocturnus ‘of the night’.",
+    "definition": "The pleasant, earthy smell produced when rain falls on dry soil.",
+    "example": "After the long drought, the first storm filled the air with petrichor.",
+    "origin": "Greek petra ‘stone’ + ichor, the fluid said to flow in the veins of the gods.",
     "synonyms": [
-      "serenade",
-      "night piece"
+      "earthiness",
+      "after-rain scent"
     ]
   }
 }
