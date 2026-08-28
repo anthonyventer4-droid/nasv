@@ -1,17 +1,18 @@
 {
-  "date": "2026-08-27",
-  "dayIndex": 969,
-  "generatedAt": "2026-08-27T08:21:01.429Z",
+  "date": "2026-08-28",
+  "dayIndex": 970,
+  "generatedAt": "2026-08-28T10:22:07.490Z",
   "word": {
-    "word": "Petrichor",
-    "phonetic": "/ˈpɛtrɪkɔːr/",
-    "pos": "noun",
-    "definition": "The pleasant, earthy smell produced when rain falls on dry soil.",
-    "example": "After the long drought, the first storm filled the air with petrichor.",
-    "origin": "Greek petra ‘stone’ + ichor, the fluid said to flow in the veins of the gods.",
+    "word": "Ephemeral",
+    "phonetic": "/ɪˈfɛm(ə)rəl/",
+    "pos": "adjective",
+    "definition": "Lasting for a very short time; fleeting and transient.",
+    "example": "The beauty of the cherry blossom is ephemeral, gone within a week.",
+    "origin": "Greek ephēmeros ‘lasting only a day’.",
     "synonyms": [
-      "earthiness",
-      "after-rain scent"
+      "fleeting",
+      "transient",
+      "momentary"
     ]
   }
 }

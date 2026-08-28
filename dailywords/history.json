@@ -1,5 +1,10 @@
 [
   {
+    "date": "2026-08-28",
+    "word": "Ephemeral",
+    "definition": "Lasting for a very short time; fleeting and transient."
+  },
+  {
     "date": "2026-08-27",
     "word": "Petrichor",
     "definition": "The pleasant, earthy smell produced when rain falls on dry soil."
@@ -143,10 +148,5 @@
     "date": "2026-07-30",
     "word": "Gossamer",
     "definition": "A fine, filmy substance; something extremely light, thin, and delicate."
-  },
-  {
-    "date": "2026-07-29",
-    "word": "Verdant",
-    "definition": "Green with grass or other rich vegetation; lush."
   }
 ]
