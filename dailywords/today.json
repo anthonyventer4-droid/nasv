@@ -1,18 +1,17 @@
 {
-  "date": "2026-08-28",
-  "dayIndex": 970,
-  "generatedAt": "2026-08-28T10:22:07.490Z",
+  "date": "2026-08-29",
+  "dayIndex": 971,
+  "generatedAt": "2026-08-29T06:21:57.007Z",
   "word": {
-    "word": "Ephemeral",
-    "phonetic": "/ɪˈfɛm(ə)rəl/",
-    "pos": "adjective",
-    "definition": "Lasting for a very short time; fleeting and transient.",
-    "example": "The beauty of the cherry blossom is ephemeral, gone within a week.",
-    "origin": "Greek ephēmeros ‘lasting only a day’.",
+    "word": "Sonder",
+    "phonetic": "/ˈsɒndər/",
+    "pos": "noun",
+    "definition": "The realization that each passer-by is living a life as vivid and complex as your own.",
+    "example": "Standing in the crowd, a wave of sonder reminded her how many stories surrounded her.",
+    "origin": "Coined by John Koenig in the Dictionary of Obscure Sorrows.",
     "synonyms": [
-      "fleeting",
-      "transient",
-      "momentary"
+      "empathy",
+      "awareness"
     ]
   }
 }
