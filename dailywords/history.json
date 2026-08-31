@@ -1,5 +1,10 @@
 [
   {
+    "date": "2026-08-31",
+    "word": "Halcyon",
+    "definition": "Denoting a period of time in the past that was idyllically happy and peaceful."
+  },
+  {
     "date": "2026-08-30",
     "word": "Ineffable",
     "definition": "Too great or extreme to be expressed or described in words."
@@ -143,10 +148,5 @@
     "date": "2026-08-02",
     "word": "Sublime",
     "definition": "Of such excellence, grandeur, or beauty as to inspire great admiration or awe."
-  },
-  {
-    "date": "2026-08-01",
-    "word": "Meander",
-    "definition": "To follow a winding course; to wander aimlessly and idly."
   }
 ]
