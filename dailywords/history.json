@@ -1,5 +1,10 @@
 [
   {
+    "date": "2026-09-01",
+    "word": "Mellifluous",
+    "definition": "Sweet or musical; pleasant to hear."
+  },
+  {
     "date": "2026-08-31",
     "word": "Halcyon",
     "definition": "Denoting a period of time in the past that was idyllically happy and peaceful."
@@ -143,10 +148,5 @@
     "date": "2026-08-03",
     "word": "Tenacity",
     "definition": "The quality of being determined and persistent."
-  },
-  {
-    "date": "2026-08-02",
-    "word": "Sublime",
-    "definition": "Of such excellence, grandeur, or beauty as to inspire great admiration or awe."
   }
 ]

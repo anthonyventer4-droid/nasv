@@ -1,18 +1,18 @@
 {
-  "date": "2026-08-31",
-  "dayIndex": 973,
-  "generatedAt": "2026-08-31T04:36:38.190Z",
+  "date": "2026-09-01",
+  "dayIndex": 974,
+  "generatedAt": "2026-09-01T04:18:17.860Z",
   "word": {
-    "word": "Halcyon",
-    "phonetic": "/ˈhalsɪən/",
+    "word": "Mellifluous",
+    "phonetic": "/mɛˈlɪflʊəs/",
     "pos": "adjective",
-    "definition": "Denoting a period of time in the past that was idyllically happy and peaceful.",
-    "example": "She looked back on the halcyon days of her childhood summers.",
-    "origin": "Greek halkuōn, a mythical bird that calmed the seas.",
+    "definition": "Sweet or musical; pleasant to hear.",
+    "example": "The narrator's mellifluous voice made the audiobook a joy.",
+    "origin": "Latin mel ‘honey’ + fluere ‘to flow’.",
     "synonyms": [
-      "serene",
-      "golden",
-      "tranquil"
+      "dulcet",
+      "honeyed",
+      "euphonious"
     ]
   }
 }
