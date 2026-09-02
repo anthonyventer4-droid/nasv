@@ -1,5 +1,10 @@
 [
   {
+    "date": "2026-09-02",
+    "word": "Serendipity",
+    "definition": "The occurrence of events by chance in a happy or beneficial way."
+  },
+  {
     "date": "2026-09-01",
     "word": "Mellifluous",
     "definition": "Sweet or musical; pleasant to hear."
@@ -143,10 +148,5 @@
     "date": "2026-08-04",
     "word": "Reverie",
     "definition": "A state of being pleasantly lost in one's thoughts; a daydream."
-  },
-  {
-    "date": "2026-08-03",
-    "word": "Tenacity",
-    "definition": "The quality of being determined and persistent."
   }
 ]
