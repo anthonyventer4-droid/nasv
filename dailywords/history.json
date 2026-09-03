@@ -1,5 +1,10 @@
 [
   {
+    "date": "2026-09-03",
+    "word": "Luminous",
+    "definition": "Full of or shedding light; bright or shining, especially in the dark."
+  },
+  {
     "date": "2026-09-02",
     "word": "Serendipity",
     "definition": "The occurrence of events by chance in a happy or beneficial way."
@@ -143,10 +148,5 @@
     "date": "2026-08-05",
     "word": "Kindle",
     "definition": "To light or set alight; to arouse or inspire an emotion."
-  },
-  {
-    "date": "2026-08-04",
-    "word": "Reverie",
-    "definition": "A state of being pleasantly lost in one's thoughts; a daydream."
   }
 ]
