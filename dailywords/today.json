@@ -1,18 +1,18 @@
 {
-  "date": "2026-09-06",
-  "dayIndex": 979,
-  "generatedAt": "2026-09-06T03:42:52.917Z",
+  "date": "2026-09-07",
+  "dayIndex": 980,
+  "generatedAt": "2026-09-07T03:42:21.833Z",
   "word": {
-    "word": "Ebullient",
-    "phonetic": "/ɪˈbʌlɪənt/",
-    "pos": "adjective",
-    "definition": "Cheerful and full of energy; overflowing with enthusiasm.",
-    "example": "The ebullient host greeted every guest with a burst of laughter.",
-    "origin": "Latin ebullire ‘to boil up’.",
+    "word": "Nadir",
+    "phonetic": "/ˈneɪdɪə/",
+    "pos": "noun",
+    "definition": "The lowest or most unsuccessful point in a situation.",
+    "example": "The team's nadir came after five straight defeats.",
+    "origin": "Arabic naẓīr ‘opposite (to the zenith)’.",
     "synonyms": [
-      "exuberant",
-      "buoyant",
-      "elated"
+      "rock bottom",
+      "low point",
+      "trough"
     ]
   }
 }
