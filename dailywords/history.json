@@ -1,5 +1,10 @@
 [
   {
+    "date": "2026-09-09",
+    "word": "Solitude",
+    "definition": "The state or situation of being alone, often by choice and peacefully."
+  },
+  {
     "date": "2026-09-08",
     "word": "Effervescent",
     "definition": "Vivacious and enthusiastic; bubbling with liveliness."
@@ -143,10 +148,5 @@
     "date": "2026-08-11",
     "word": "Solace",
     "definition": "Comfort or consolation in a time of distress or sadness."
-  },
-  {
-    "date": "2026-08-10",
-    "word": "Iridescent",
-    "definition": "Showing luminous colours that seem to change when seen from different angles."
   }
 ]
