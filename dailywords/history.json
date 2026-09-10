@@ -1,5 +1,10 @@
 [
   {
+    "date": "2026-09-10",
+    "word": "Zephyr",
+    "definition": "A soft, gentle breeze."
+  },
+  {
     "date": "2026-09-09",
     "word": "Solitude",
     "definition": "The state or situation of being alone, often by choice and peacefully."
@@ -143,10 +148,5 @@
     "date": "2026-08-12",
     "word": "Vivid",
     "definition": "Producing powerful, clear images in the mind; intensely bright."
-  },
-  {
-    "date": "2026-08-11",
-    "word": "Solace",
-    "definition": "Comfort or consolation in a time of distress or sadness."
   }
 ]
