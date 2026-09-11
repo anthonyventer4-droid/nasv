@@ -1,5 +1,10 @@
 [
   {
+    "date": "2026-09-11",
+    "word": "Nefarious",
+    "definition": "Wicked, villainous, or criminal in nature."
+  },
+  {
     "date": "2026-09-10",
     "word": "Zephyr",
     "definition": "A soft, gentle breeze."
@@ -143,10 +148,5 @@
     "date": "2026-08-13",
     "word": "Whimsical",
     "definition": "Playfully quaint or fanciful, especially in an appealing way."
-  },
-  {
-    "date": "2026-08-12",
-    "word": "Vivid",
-    "definition": "Producing powerful, clear images in the mind; intensely bright."
   }
 ]
