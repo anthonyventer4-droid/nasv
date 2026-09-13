@@ -1,5 +1,10 @@
 [
   {
+    "date": "2026-09-13",
+    "word": "Resilience",
+    "definition": "The capacity to recover quickly from difficulties; toughness."
+  },
+  {
     "date": "2026-09-12",
     "word": "Panacea",
     "definition": "A solution or remedy for all difficulties or diseases."
@@ -143,10 +148,5 @@
     "date": "2026-08-15",
     "word": "Beguile",
     "definition": "To charm or enchant, sometimes in a deceptive way."
-  },
-  {
-    "date": "2026-08-14",
-    "word": "Zenith",
-    "definition": "The time at which something is most powerful or successful; the highest point."
   }
 ]
