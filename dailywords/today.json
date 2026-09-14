@@ -1,18 +1,18 @@
 {
-  "date": "2026-09-13",
-  "dayIndex": 986,
-  "generatedAt": "2026-09-13T03:58:53.674Z",
+  "date": "2026-09-14",
+  "dayIndex": 987,
+  "generatedAt": "2026-09-14T04:06:46.067Z",
   "word": {
-    "word": "Resilience",
-    "phonetic": "/rɪˈzɪlɪəns/",
-    "pos": "noun",
-    "definition": "The capacity to recover quickly from difficulties; toughness.",
-    "example": "The community's resilience after the flood inspired the whole nation.",
-    "origin": "Latin resilire ‘to leap back’.",
+    "word": "Idyllic",
+    "phonetic": "/ɪˈdɪlɪk/",
+    "pos": "adjective",
+    "definition": "Extremely happy, peaceful, or picturesque.",
+    "example": "They spent an idyllic afternoon by the lake.",
+    "origin": "Greek eidyllion ‘little picture’.",
     "synonyms": [
-      "fortitude",
-      "grit",
-      "buoyancy"
+      "heavenly",
+      "blissful",
+      "picturesque"
     ]
   }
 }
