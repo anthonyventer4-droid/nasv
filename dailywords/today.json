@@ -1,18 +1,18 @@
 {
-  "date": "2026-09-17",
-  "dayIndex": 990,
-  "generatedAt": "2026-09-17T04:09:26.146Z",
+  "date": "2026-09-18",
+  "dayIndex": 991,
+  "generatedAt": "2026-09-18T03:54:48.626Z",
   "word": {
-    "word": "Aplomb",
-    "phonetic": "/əˈplɒm/",
-    "pos": "noun",
-    "definition": "Self-confidence or assurance, especially in a demanding situation.",
-    "example": "She handled the hostile questions with remarkable aplomb.",
-    "origin": "French à plomb ‘according to the plummet, perpendicular’.",
+    "word": "Verdant",
+    "phonetic": "/ˈvəːd(ə)nt/",
+    "pos": "adjective",
+    "definition": "Green with grass or other rich vegetation; lush.",
+    "example": "The verdant hills rolled endlessly toward the horizon.",
+    "origin": "Old French verdoyant, from verdoyer ‘be green’.",
     "synonyms": [
-      "poise",
-      "composure",
-      "self-assurance"
+      "lush",
+      "leafy",
+      "green"
     ]
   }
 }
