@@ -1,5 +1,10 @@
 [
   {
+    "date": "2026-09-19",
+    "word": "Gossamer",
+    "definition": "A fine, filmy substance; something extremely light, thin, and delicate."
+  },
+  {
     "date": "2026-09-18",
     "word": "Verdant",
     "definition": "Green with grass or other rich vegetation; lush."
@@ -143,10 +148,5 @@
     "date": "2026-08-21",
     "word": "Halloween",
     "definition": "The night of 31 October, traditionally associated with ghosts and costumes."
-  },
-  {
-    "date": "2026-08-20",
-    "word": "Galvanize",
-    "definition": "To shock or excite someone into taking decisive action."
   }
 ]
