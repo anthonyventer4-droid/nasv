@@ -1,5 +1,10 @@
 [
   {
+    "date": "2026-09-20",
+    "word": "Incandescent",
+    "definition": "Emitting light as a result of being heated; full of strong emotion; brilliant."
+  },
+  {
     "date": "2026-09-19",
     "word": "Gossamer",
     "definition": "A fine, filmy substance; something extremely light, thin, and delicate."
@@ -143,10 +148,5 @@
     "date": "2026-08-22",
     "word": "Insouciant",
     "definition": "Showing a casual lack of concern; carefree and unbothered."
-  },
-  {
-    "date": "2026-08-21",
-    "word": "Halloween",
-    "definition": "The night of 31 October, traditionally associated with ghosts and costumes."
   }
 ]
