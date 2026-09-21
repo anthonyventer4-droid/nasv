@@ -1,5 +1,10 @@
 [
   {
+    "date": "2026-09-21",
+    "word": "Meander",
+    "definition": "To follow a winding course; to wander aimlessly and idly."
+  },
+  {
     "date": "2026-09-20",
     "word": "Incandescent",
     "definition": "Emitting light as a result of being heated; full of strong emotion; brilliant."
@@ -143,10 +148,5 @@
     "date": "2026-08-23",
     "word": "Juxtapose",
     "definition": "To place two things close together for contrasting effect."
-  },
-  {
-    "date": "2026-08-22",
-    "word": "Insouciant",
-    "definition": "Showing a casual lack of concern; carefree and unbothered."
   }
 ]
