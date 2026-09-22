@@ -1,5 +1,10 @@
 [
   {
+    "date": "2026-09-22",
+    "word": "Sublime",
+    "definition": "Of such excellence, grandeur, or beauty as to inspire great admiration or awe."
+  },
+  {
     "date": "2026-09-21",
     "word": "Meander",
     "definition": "To follow a winding course; to wander aimlessly and idly."
@@ -143,10 +148,5 @@
     "date": "2026-08-24",
     "word": "Kaleidoscope",
     "definition": "A constantly changing pattern or sequence of elements."
-  },
-  {
-    "date": "2026-08-23",
-    "word": "Juxtapose",
-    "definition": "To place two things close together for contrasting effect."
   }
 ]
