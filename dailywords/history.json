@@ -1,5 +1,10 @@
 [
   {
+    "date": "2026-09-23",
+    "word": "Tenacity",
+    "definition": "The quality of being determined and persistent."
+  },
+  {
     "date": "2026-09-22",
     "word": "Sublime",
     "definition": "Of such excellence, grandeur, or beauty as to inspire great admiration or awe."
@@ -143,10 +148,5 @@
     "date": "2026-08-25",
     "word": "Labyrinth",
     "definition": "A complicated, irregular network of passages; an intricate maze."
-  },
-  {
-    "date": "2026-08-24",
-    "word": "Kaleidoscope",
-    "definition": "A constantly changing pattern or sequence of elements."
   }
 ]
