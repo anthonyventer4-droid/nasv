@@ -1,5 +1,10 @@
 [
   {
+    "date": "2026-09-25",
+    "word": "Kindle",
+    "definition": "To light or set alight; to arouse or inspire an emotion."
+  },
+  {
     "date": "2026-09-24",
     "word": "Reverie",
     "definition": "A state of being pleasantly lost in one's thoughts; a daydream."
@@ -143,10 +148,5 @@
     "date": "2026-08-27",
     "word": "Petrichor",
     "definition": "The pleasant, earthy smell produced when rain falls on dry soil."
-  },
-  {
-    "date": "2026-08-26",
-    "word": "Nocturne",
-    "definition": "A short musical composition, typically for piano, evoking the night."
   }
 ]
