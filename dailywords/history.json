@@ -1,5 +1,10 @@
 [
   {
+    "date": "2026-09-26",
+    "word": "Lucid",
+    "definition": "Expressed clearly; easy to understand; mentally sharp."
+  },
+  {
     "date": "2026-09-25",
     "word": "Kindle",
     "definition": "To light or set alight; to arouse or inspire an emotion."
@@ -143,10 +148,5 @@
     "date": "2026-08-28",
     "word": "Ephemeral",
     "definition": "Lasting for a very short time; fleeting and transient."
-  },
-  {
-    "date": "2026-08-27",
-    "word": "Petrichor",
-    "definition": "The pleasant, earthy smell produced when rain falls on dry soil."
   }
 ]
