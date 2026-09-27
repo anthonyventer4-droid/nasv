@@ -1,18 +1,18 @@
 {
-  "date": "2026-09-26",
-  "dayIndex": 999,
-  "generatedAt": "2026-09-26T04:13:54.020Z",
+  "date": "2026-09-27",
+  "dayIndex": 1000,
+  "generatedAt": "2026-09-27T04:29:19.543Z",
   "word": {
-    "word": "Lucid",
-    "phonetic": "/ˈluːsɪd/",
-    "pos": "adjective",
-    "definition": "Expressed clearly; easy to understand; mentally sharp.",
-    "example": "Her lucid explanation made the hard concept feel simple.",
-    "origin": "Latin lucidus ‘bright, clear’.",
+    "word": "Cornucopia",
+    "phonetic": "/ˌkɔːnjʊˈkəʊpɪə/",
+    "pos": "noun",
+    "definition": "An abundant supply of good things; a horn of plenty.",
+    "example": "The market was a cornucopia of colours, spices, and sounds.",
+    "origin": "Latin cornu copiae ‘horn of plenty’.",
     "synonyms": [
-      "clear",
-      "coherent",
-      "articulate"
+      "abundance",
+      "profusion",
+      "wealth"
     ]
   }
 }
