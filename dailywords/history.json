@@ -1,5 +1,10 @@
 [
   {
+    "date": "2026-09-28",
+    "word": "Elysian",
+    "definition": "Beautiful or creative; divinely inspired; peaceful and perfect."
+  },
+  {
     "date": "2026-09-27",
     "word": "Cornucopia",
     "definition": "An abundant supply of good things; a horn of plenty."
@@ -143,10 +148,5 @@
     "date": "2026-08-30",
     "word": "Ineffable",
     "definition": "Too great or extreme to be expressed or described in words."
-  },
-  {
-    "date": "2026-08-29",
-    "word": "Sonder",
-    "definition": "The realization that each passer-by is living a life as vivid and complex as your own."
   }
 ]
