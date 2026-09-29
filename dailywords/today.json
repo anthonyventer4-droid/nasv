@@ -1,18 +1,18 @@
 {
-  "date": "2026-09-28",
-  "dayIndex": 1001,
-  "generatedAt": "2026-09-28T04:30:44.134Z",
+  "date": "2026-09-29",
+  "dayIndex": 1002,
+  "generatedAt": "2026-09-29T04:59:41.329Z",
   "word": {
-    "word": "Elysian",
-    "phonetic": "/ɪˈlɪzɪən/",
-    "pos": "adjective",
-    "definition": "Beautiful or creative; divinely inspired; peaceful and perfect.",
-    "example": "The garden had an almost elysian calm at first light.",
-    "origin": "From Elysium, the paradise of Greek mythology.",
+    "word": "Fathom",
+    "phonetic": "/ˈfaðəm/",
+    "pos": "verb",
+    "definition": "To understand after much thought; to penetrate the meaning of.",
+    "example": "She could not fathom why the plan had failed so suddenly.",
+    "origin": "Old English fæthm ‘outstretched arms’, later a unit of depth.",
     "synonyms": [
-      "blissful",
-      "heavenly",
-      "paradisiacal"
+      "comprehend",
+      "grasp",
+      "decipher"
     ]
   }
 }
