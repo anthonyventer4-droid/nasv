@@ -1,18 +1,18 @@
 {
-  "date": "2026-10-01",
-  "dayIndex": 1004,
-  "generatedAt": "2026-10-01T04:58:47.526Z",
+  "date": "2026-10-02",
+  "dayIndex": 1005,
+  "generatedAt": "2026-10-02T04:48:49.692Z",
   "word": {
-    "word": "Solace",
-    "phonetic": "/ˈsɒlɪs/",
-    "pos": "noun",
-    "definition": "Comfort or consolation in a time of distress or sadness.",
-    "example": "He found solace in long walks along the shore.",
-    "origin": "Latin solari ‘to console’.",
+    "word": "Vivid",
+    "phonetic": "/ˈvɪvɪd/",
+    "pos": "adjective",
+    "definition": "Producing powerful, clear images in the mind; intensely bright.",
+    "example": "She had a vivid memory of the day they first met.",
+    "origin": "Latin vividus ‘lively’.",
     "synonyms": [
-      "comfort",
-      "consolation",
-      "relief"
+      "striking",
+      "graphic",
+      "brilliant"
     ]
   }
 }
