@@ -1,5 +1,10 @@
 [
   {
+    "date": "2026-10-03",
+    "word": "Whimsical",
+    "definition": "Playfully quaint or fanciful, especially in an appealing way."
+  },
+  {
     "date": "2026-10-02",
     "word": "Vivid",
     "definition": "Producing powerful, clear images in the mind; intensely bright."
@@ -143,10 +148,5 @@
     "date": "2026-09-04",
     "word": "Wanderlust",
     "definition": "A strong desire to travel and explore the world."
-  },
-  {
-    "date": "2026-09-03",
-    "word": "Luminous",
-    "definition": "Full of or shedding light; bright or shining, especially in the dark."
   }
 ]
