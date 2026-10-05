@@ -1,5 +1,10 @@
 [
   {
+    "date": "2026-10-05",
+    "word": "Beguile",
+    "definition": "To charm or enchant, sometimes in a deceptive way."
+  },
+  {
     "date": "2026-10-04",
     "word": "Zenith",
     "definition": "The time at which something is most powerful or successful; the highest point."
@@ -143,10 +148,5 @@
     "date": "2026-09-06",
     "word": "Ebullient",
     "definition": "Cheerful and full of energy; overflowing with enthusiasm."
-  },
-  {
-    "date": "2026-09-05",
-    "word": "Quixotic",
-    "definition": "Exceedingly idealistic; unrealistic and impractical."
   }
 ]
