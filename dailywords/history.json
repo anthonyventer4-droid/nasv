@@ -1,5 +1,10 @@
 [
   {
+    "date": "2026-10-09",
+    "word": "Fastidious",
+    "definition": "Very attentive to accuracy and detail; hard to please."
+  },
+  {
     "date": "2026-10-08",
     "word": "Epiphany",
     "definition": "A sudden, striking realization or moment of insight."
@@ -143,10 +148,5 @@
     "date": "2026-09-10",
     "word": "Zephyr",
     "definition": "A soft, gentle breeze."
-  },
-  {
-    "date": "2026-09-09",
-    "word": "Solitude",
-    "definition": "The state or situation of being alone, often by choice and peacefully."
   }
 ]
