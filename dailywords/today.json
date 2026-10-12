@@ -1,16 +1,18 @@
 {
-  "date": "2026-10-11",
-  "dayIndex": 1014,
-  "generatedAt": "2026-10-11T04:53:21.605Z",
+  "date": "2026-10-12",
+  "dayIndex": 1015,
+  "generatedAt": "2026-10-12T05:07:51.829Z",
   "word": {
-    "word": "Halloween",
-    "phonetic": "/ˌhaləˈwiːn/",
-    "pos": "noun",
-    "definition": "The night of 31 October, traditionally associated with ghosts and costumes.",
-    "example": "The children carved lanterns for Halloween.",
-    "origin": "Contraction of All Hallows' Even.",
+    "word": "Insouciant",
+    "phonetic": "/ɪnˈsuːsɪənt/",
+    "pos": "adjective",
+    "definition": "Showing a casual lack of concern; carefree and unbothered.",
+    "example": "He gave an insouciant shrug and carried on whistling.",
+    "origin": "French, from in- ‘not’ + soucier ‘to trouble’.",
     "synonyms": [
-      "All Hallows' Eve"
+      "carefree",
+      "nonchalant",
+      "unconcerned"
     ]
   }
 }
