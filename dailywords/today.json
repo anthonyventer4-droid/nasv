@@ -1,18 +1,18 @@
 {
-  "date": "2026-10-12",
-  "dayIndex": 1015,
-  "generatedAt": "2026-10-12T05:07:51.829Z",
+  "date": "2026-10-13",
+  "dayIndex": 1016,
+  "generatedAt": "2026-10-13T06:07:16.204Z",
   "word": {
-    "word": "Insouciant",
-    "phonetic": "/ɪnˈsuːsɪənt/",
-    "pos": "adjective",
-    "definition": "Showing a casual lack of concern; carefree and unbothered.",
-    "example": "He gave an insouciant shrug and carried on whistling.",
-    "origin": "French, from in- ‘not’ + soucier ‘to trouble’.",
+    "word": "Juxtapose",
+    "phonetic": "/ˈdʒʌkstəpəʊz/",
+    "pos": "verb",
+    "definition": "To place two things close together for contrasting effect.",
+    "example": "The film juxtaposes quiet villages with roaring cities.",
+    "origin": "Latin juxta ‘next’ + French poser ‘to place’.",
     "synonyms": [
-      "carefree",
-      "nonchalant",
-      "unconcerned"
+      "contrast",
+      "compare",
+      "set side by side"
     ]
   }
 }
