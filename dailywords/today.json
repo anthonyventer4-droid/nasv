@@ -1,18 +1,18 @@
 {
-  "date": "2026-10-13",
-  "dayIndex": 1016,
-  "generatedAt": "2026-10-13T06:07:16.204Z",
+  "date": "2026-10-14",
+  "dayIndex": 1017,
+  "generatedAt": "2026-10-14T04:10:26.525Z",
   "word": {
-    "word": "Juxtapose",
-    "phonetic": "/ˈdʒʌkstəpəʊz/",
-    "pos": "verb",
-    "definition": "To place two things close together for contrasting effect.",
-    "example": "The film juxtaposes quiet villages with roaring cities.",
-    "origin": "Latin juxta ‘next’ + French poser ‘to place’.",
+    "word": "Kaleidoscope",
+    "phonetic": "/kəˈlʌɪdəskəʊp/",
+    "pos": "noun",
+    "definition": "A constantly changing pattern or sequence of elements.",
+    "example": "The festival was a kaleidoscope of music, colour, and food.",
+    "origin": "Greek kalos ‘beautiful’ + eidos ‘form’ + -scope.",
     "synonyms": [
-      "contrast",
-      "compare",
-      "set side by side"
+      "medley",
+      "array",
+      "montage"
     ]
   }
 }
