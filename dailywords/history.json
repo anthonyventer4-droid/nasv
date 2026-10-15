@@ -1,5 +1,10 @@
 [
   {
+    "date": "2026-10-15",
+    "word": "Labyrinth",
+    "definition": "A complicated, irregular network of passages; an intricate maze."
+  },
+  {
     "date": "2026-10-14",
     "word": "Kaleidoscope",
     "definition": "A constantly changing pattern or sequence of elements."
@@ -143,10 +148,5 @@
     "date": "2026-09-16",
     "word": "Cascade",
     "definition": "A small waterfall, or a process whereby something happens in a series of stages."
-  },
-  {
-    "date": "2026-09-15",
-    "word": "Ubiquitous",
-    "definition": "Present, appearing, or found everywhere."
   }
 ]
