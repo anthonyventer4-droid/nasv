@@ -1,5 +1,10 @@
 [
   {
+    "date": "2026-10-20",
+    "word": "Ineffable",
+    "definition": "Too great or extreme to be expressed or described in words."
+  },
+  {
     "date": "2026-10-19",
     "word": "Sonder",
     "definition": "The realization that each passer-by is living a life as vivid and complex as your own."
@@ -143,10 +148,5 @@
     "date": "2026-09-21",
     "word": "Meander",
     "definition": "To follow a winding course; to wander aimlessly and idly."
-  },
-  {
-    "date": "2026-09-20",
-    "word": "Incandescent",
-    "definition": "Emitting light as a result of being heated; full of strong emotion; brilliant."
   }
 ]
