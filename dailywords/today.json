@@ -1,18 +1,18 @@
 {
-  "date": "2026-10-22",
-  "dayIndex": 1025,
-  "generatedAt": "2026-10-22T03:55:53.837Z",
+  "date": "2026-10-23",
+  "dayIndex": 1026,
+  "generatedAt": "2026-10-23T03:59:22.665Z",
   "word": {
-    "word": "Mellifluous",
-    "phonetic": "/mɛˈlɪflʊəs/",
-    "pos": "adjective",
-    "definition": "Sweet or musical; pleasant to hear.",
-    "example": "The narrator's mellifluous voice made the audiobook a joy.",
-    "origin": "Latin mel ‘honey’ + fluere ‘to flow’.",
+    "word": "Serendipity",
+    "phonetic": "/ˌsɛr(ə)nˈdɪpɪti/",
+    "pos": "noun",
+    "definition": "The occurrence of events by chance in a happy or beneficial way.",
+    "example": "Finding that book was pure serendipity — it answered a question I'd had for years.",
+    "origin": "Coined by Horace Walpole in 1754, from the tale The Three Princes of Serendip.",
     "synonyms": [
-      "dulcet",
-      "honeyed",
-      "euphonious"
+      "fluke",
+      "chance",
+      "fortuity"
     ]
   }
 }
