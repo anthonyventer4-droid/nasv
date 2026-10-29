@@ -1,18 +1,18 @@
 {
-  "date": "2026-10-28",
-  "dayIndex": 1031,
-  "generatedAt": "2026-10-28T04:48:31.123Z",
+  "date": "2026-10-29",
+  "dayIndex": 1032,
+  "generatedAt": "2026-10-29T04:59:15.161Z",
   "word": {
-    "word": "Nadir",
-    "phonetic": "/ˈneɪdɪə/",
-    "pos": "noun",
-    "definition": "The lowest or most unsuccessful point in a situation.",
-    "example": "The team's nadir came after five straight defeats.",
-    "origin": "Arabic naẓīr ‘opposite (to the zenith)’.",
+    "word": "Effervescent",
+    "phonetic": "/ˌɛfəˈvɛs(ə)nt/",
+    "pos": "adjective",
+    "definition": "Vivacious and enthusiastic; bubbling with liveliness.",
+    "example": "Her effervescent personality lit up the entire room.",
+    "origin": "Latin effervescere ‘to boil up, foam’.",
     "synonyms": [
-      "rock bottom",
-      "low point",
-      "trough"
+      "bubbly",
+      "vivacious",
+      "sparkling"
     ]
   }
 }
