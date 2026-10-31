@@ -1,18 +1,18 @@
 {
-  "date": "2026-10-30",
-  "dayIndex": 1033,
-  "generatedAt": "2026-10-30T04:58:47.599Z",
+  "date": "2026-10-31",
+  "dayIndex": 1034,
+  "generatedAt": "2026-10-31T04:45:51.447Z",
   "word": {
-    "word": "Solitude",
-    "phonetic": "/ˈsɒlɪtjuːd/",
+    "word": "Zephyr",
+    "phonetic": "/ˈzɛfə/",
     "pos": "noun",
-    "definition": "The state or situation of being alone, often by choice and peacefully.",
-    "example": "He craved the solitude of the mountains after a hectic week.",
-    "origin": "Latin solitudo, from solus ‘alone’.",
+    "definition": "A soft, gentle breeze.",
+    "example": "A warm zephyr drifted across the meadow at dusk.",
+    "origin": "Greek Zephuros, god of the west wind.",
     "synonyms": [
-      "seclusion",
-      "privacy",
-      "isolation"
+      "breeze",
+      "draught",
+      "current"
     ]
   }
 }
