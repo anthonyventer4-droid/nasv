@@ -1,18 +1,18 @@
 {
-  "date": "2026-10-31",
-  "dayIndex": 1034,
-  "generatedAt": "2026-10-31T04:45:51.447Z",
+  "date": "2026-11-01",
+  "dayIndex": 1035,
+  "generatedAt": "2026-11-01T05:08:44.437Z",
   "word": {
-    "word": "Zephyr",
-    "phonetic": "/ˈzɛfə/",
-    "pos": "noun",
-    "definition": "A soft, gentle breeze.",
-    "example": "A warm zephyr drifted across the meadow at dusk.",
-    "origin": "Greek Zephuros, god of the west wind.",
+    "word": "Nefarious",
+    "phonetic": "/nɪˈfɛːrɪəs/",
+    "pos": "adjective",
+    "definition": "Wicked, villainous, or criminal in nature.",
+    "example": "The detective uncovered a nefarious scheme to defraud investors.",
+    "origin": "Latin nefarius, from nefas ‘wrong, crime’.",
     "synonyms": [
-      "breeze",
-      "draught",
-      "current"
+      "villainous",
+      "iniquitous",
+      "heinous"
     ]
   }
 }
