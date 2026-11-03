@@ -1,18 +1,18 @@
 {
-  "date": "2026-11-02",
-  "dayIndex": 1036,
-  "generatedAt": "2026-11-02T05:09:03.250Z",
+  "date": "2026-11-03",
+  "dayIndex": 1037,
+  "generatedAt": "2026-11-03T05:54:25.765Z",
   "word": {
-    "word": "Panacea",
-    "phonetic": "/ˌpanəˈsiːə/",
+    "word": "Resilience",
+    "phonetic": "/rɪˈzɪlɪəns/",
     "pos": "noun",
-    "definition": "A solution or remedy for all difficulties or diseases.",
-    "example": "Technology is powerful, but it is no panacea for social problems.",
-    "origin": "Greek panakēs ‘all-healing’.",
+    "definition": "The capacity to recover quickly from difficulties; toughness.",
+    "example": "The community's resilience after the flood inspired the whole nation.",
+    "origin": "Latin resilire ‘to leap back’.",
     "synonyms": [
-      "cure-all",
-      "elixir",
-      "remedy"
+      "fortitude",
+      "grit",
+      "buoyancy"
     ]
   }
 }
