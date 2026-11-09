@@ -1,18 +1,18 @@
 {
-  "date": "2026-11-08",
-  "dayIndex": 1042,
-  "generatedAt": "2026-11-08T05:14:49.549Z",
+  "date": "2026-11-09",
+  "dayIndex": 1043,
+  "generatedAt": "2026-11-09T05:25:47.773Z",
   "word": {
-    "word": "Verdant",
-    "phonetic": "/ˈvəːd(ə)nt/",
-    "pos": "adjective",
-    "definition": "Green with grass or other rich vegetation; lush.",
-    "example": "The verdant hills rolled endlessly toward the horizon.",
-    "origin": "Old French verdoyant, from verdoyer ‘be green’.",
+    "word": "Gossamer",
+    "phonetic": "/ˈɡɒsəmə/",
+    "pos": "noun",
+    "definition": "A fine, filmy substance; something extremely light, thin, and delicate.",
+    "example": "The dress was made of a gossamer so light it seemed to float.",
+    "origin": "Middle English, probably ‘goose summer’, a mild period when geese were eaten.",
     "synonyms": [
-      "lush",
-      "leafy",
-      "green"
+      "cobweb",
+      "filament",
+      "spider-silk"
     ]
   }
 }
