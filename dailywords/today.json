@@ -1,18 +1,18 @@
 {
-  "date": "2026-11-11",
-  "dayIndex": 1045,
-  "generatedAt": "2026-11-11T05:24:27.975Z",
+  "date": "2026-11-12",
+  "dayIndex": 1046,
+  "generatedAt": "2026-11-12T06:27:33.853Z",
   "word": {
-    "word": "Meander",
-    "phonetic": "/mɪˈandə/",
-    "pos": "verb",
-    "definition": "To follow a winding course; to wander aimlessly and idly.",
-    "example": "We let the conversation meander across a dozen topics.",
-    "origin": "From the Maiandros, a notably winding river in ancient Turkey.",
+    "word": "Sublime",
+    "phonetic": "/səˈblʌɪm/",
+    "pos": "adjective",
+    "definition": "Of such excellence, grandeur, or beauty as to inspire great admiration or awe.",
+    "example": "The choir reached a sublime crescendo that silenced the hall.",
+    "origin": "Latin sublimis ‘lofty, exalted’.",
     "synonyms": [
-      "wind",
-      "wander",
-      "ramble"
+      "exalted",
+      "majestic",
+      "transcendent"
     ]
   }
 }
