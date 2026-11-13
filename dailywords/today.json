@@ -1,18 +1,18 @@
 {
-  "date": "2026-11-12",
-  "dayIndex": 1046,
-  "generatedAt": "2026-11-12T06:27:33.853Z",
+  "date": "2026-11-13",
+  "dayIndex": 1047,
+  "generatedAt": "2026-11-13T05:47:40.678Z",
   "word": {
-    "word": "Sublime",
-    "phonetic": "/səˈblʌɪm/",
-    "pos": "adjective",
-    "definition": "Of such excellence, grandeur, or beauty as to inspire great admiration or awe.",
-    "example": "The choir reached a sublime crescendo that silenced the hall.",
-    "origin": "Latin sublimis ‘lofty, exalted’.",
+    "word": "Tenacity",
+    "phonetic": "/tɪˈnasɪti/",
+    "pos": "noun",
+    "definition": "The quality of being determined and persistent.",
+    "example": "It was sheer tenacity, not talent, that carried her to the finish.",
+    "origin": "Latin tenax ‘holding fast’.",
     "synonyms": [
-      "exalted",
-      "majestic",
-      "transcendent"
+      "persistence",
+      "doggedness",
+      "resolve"
     ]
   }
 }
